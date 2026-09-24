@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 Agent 产物（外部情报层）/
+Installed Context（滚动）/
+外部情报（滚动）/
