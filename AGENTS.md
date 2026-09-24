@@ -34,15 +34,22 @@ External 定位是自动的（`skill-daily/scripts/common.py` 的 `resolve_exter
 ## 每天产物去哪看
 
 launchd 已配好（`~/Library/LaunchAgents/com.alw.skill-daily.plist`，Label `com.alw.skill-daily`）：
-**每天早上 07:00 自动跑，不经任何智能体/大模型。** 产物目录：
+**每天早上 07:00 自动跑，不经任何智能体/大模型。** 现在执行的是两步封装
+`skill 日报-py/viewer/run_daily.sh`（先跑冻结引擎，再跑大白话翻译器），时间/输出目录不变。产物目录：
 
 ```text
 /Users/zzymima0000/Developer/coding/1.Active/000-alw-自动化任务/skill 日报-py/
-├── YYYY-MM-DD.md                  ← 当天日报
-├── DAILY_REPORT_CONTEXT.json      ← 机器摘要
+├── YYYY-MM-DD.md                  ← 当天日报（引擎正式产物）
+├── YYYY-MM-DD-大白话版.html       ← 翻译器生成，给用户直接双击打开
+├── DAILY_REPORT_CONTEXT.json      ← 机器摘要（翻译器的输入）
 ├── state/daily_snapshot.json      ← 自动化专用状态（与项目区 state 互不干扰）
+├── viewer/plain_report.py         ← 大白话翻译器（纯 stdlib 确定性脚本，非冻结引擎、无大模型）
+├── viewer/run_daily.sh            ← 两步封装（launchd 实际执行入口）
 └── logs/stdout.log / stderr.log   ← 出事先看 stderr
 ```
+
+注意：翻译器只读 `DAILY_REPORT_CONTEXT.json` 和当天 `.md` 的「数据提醒」段，不反向影响引擎；
+词典（项目名/能力族/比喻）写死在 `plain_report.py` 里，新增项目时在该文件补一行即可。
 
 改时间：编辑 plist 的 Hour/Minute，然后
 `launchctl bootout gui/$(id -u)/com.alw.skill-daily && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.alw.skill-daily.plist`。

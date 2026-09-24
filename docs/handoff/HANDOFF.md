@@ -16,10 +16,11 @@
 3. **工作区迁移完成**
    - 2026-09-24 由 `~/Downloads/大模型 HANDOFF/60 Skill 仓库` 以 ditto **复制**（非移动）至此，三目录同级（开发仓布局）；`diff -r` 逐字节一致后清理了验证产生的状态漂移。
    - **旧位置三份原件仍在**（skill-daily / external-intelligence / Agent 产物），等用户确认新位置稳定后由用户决定是否清理。智能体不得代删。
-4. **launchd 本地自动化已部署并端到端验证**
-   - `~/Library/LaunchAgents/com.alw.skill-daily.plist`，每天 07:00 直跑 Python，无大模型、无网络。
-   - 产物目录：`/Users/zzymima0000/Developer/coding/1.Active/000-alw-自动化任务/skill 日报-py/`（`YYYY-MM-DD.md` + `DAILY_REPORT_CONTEXT.json` + `state/` + `logs/`）。
-   - 验证：plutil OK / bootstrap 成功 / kickstart 真触发 runs=1 exit=0 / stderr 空 / 项目区零写入（diff 亲验）。
+4. **launchd 本地自动化已部署并端到端验证（含大白话翻译器）**
+   - `~/Library/LaunchAgents/com.alw.skill-daily.plist`，每天 07:00，无大模型、无网络。2026-09-24 起执行内容改为两步封装 `skill 日报-py/viewer/run_daily.sh`（先冻结引擎，后翻译器），时间/输出目录不变（plist 改动经用户单独确认）。
+   - 大白话翻译器：`skill 日报-py/viewer/plain_report.py`（纯 stdlib 确定性脚本，非冻结引擎外挂；词典写死，新增项目在其 PROJECT_ZH 补一行）。读 `DAILY_REPORT_CONTEXT.json` + 当天 .md 的「数据提醒」段，产出 `YYYY-MM-DD-大白话版.html`。
+   - 产物目录：`/Users/zzymima0000/Developer/coding/1.Active/000-alw-自动化任务/skill 日报-py/`（`YYYY-MM-DD.md` + `YYYY-MM-DD-大白话版.html` + `DAILY_REPORT_CONTEXT.json` + `state/` + `viewer/` + `logs/`）。**注意：viewer 目前只有自动化目录这一份拷贝，未入 git；如要备份需用户定夺去向。**
+   - 验证：plutil OK / bootstrap 成功 / kickstart 真触发 runs=1 exit=0 / stderr 空 / HTML mtime 更新 / 项目区零写入（diff 亲验）。
    - 关键部署事实：本机 `command -v python3` 是 3.9.6（跑 V1.4 必 SyntaxError），launchd 与一切脚本必须用 `~/.workbuddy/binaries/python/versions/3.13.12/bin/python3` 绝对路径。
 5. **收尾（neat-freak）**：本工作区 `__pycache__`/`.pyc`/`.DS_Store` 已清零；根 `AGENTS.md` 与 README、launchd 实况已对齐。
 
