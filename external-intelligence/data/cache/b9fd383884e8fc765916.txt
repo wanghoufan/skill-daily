@@ -1,0 +1,59 @@
+---
+name: office-docs
+description: Office文档自动化制作技能，基于officecli命令行工具操作docx/xlsx/pptx。覆盖Word文档创建编辑（页码字段、目录、多级编号、表格、学术排版）、Excel公式与图表（财务模型三区架构、零公式错误、打印设置）、PPT幻灯片设计（字号规范、配色、图表、路演deck）、交付前质量门禁（validate、泄漏扫描、视觉审计）。触发词：Word、Excel、PPT、PPTX、docx、xlsx、pptx、文档生成、报告、财务模型、路演、演示文稿、幻灯片、页码、目录、公式、图表、officecli、office automation, Word document, Excel spreadsheet, PowerPoint slides, pitch deck, financial model, TOC, page numbers, formulas, quality gates。用于：创建/编辑Office文档、生成报告与财务模型、制作演示PPT、文档交付前质检等场景。
+metadata:
+  agent_created: true
+---
+
+# Office Docs（docx / xlsx / pptx 自动化）
+
+基于 **officecli**（单二进制 CLI，XPath 风格语义路径 + 语义动词）操作 Office 文档。核心立场：**validate 通过 ≠ 可交付**，交付必须过四层门禁。
+
+## 症状 → 加载哪个 reference
+
+| 症状 / 任务 | 加载 |
+|---|---|
+| 第一次用 officecli；路径/转义/batch 报错；不确定命令参数 | `references/officecli-basics.md` |
+| Word 文档：页码、目录、编号、表格、水印、学术排版 | `references/word-docx.md` |
+| Excel：公式、图表、财务模型、打印设置、仪表盘 | `references/excel-xlsx.md` |
+| PPT：设计规范、图表、路演 deck、流程图、决策树 | `references/pptx-slides.md` |
+| 交付前质检；模板先行工作流；JSON 规格驱动建 PPT | `references/quality-gates.md` |
+
+## 安装与首次使用
+
+```bash
+# Linux/macOS
+curl -fsSL https://d.officecli.ai/install.sh | bash
+# Windows PowerShell
+irm https://d.officecli.ai/install.ps1 | iex
+```
+不确定属性名时**先查内置 schema**：`officecli help <fmt> <element>`（可加动词过滤如 `help docx set paragraph`，支持 `--json`）。help 与任何文档冲突时以 help 为准。
+
+## 全局工作流
+
+1. `view outline` 定向（改前先看清结构）。
+2. 单命令小步操作，结构操作后 `get` 回读验证；禁止盲改、禁止 50 条命令脚本一次性跑。
+3. 复杂改动写 batch JSON（默认原子：任一失败整体回滚）。
+4. 交付前跑四层门禁（见 `quality-gates.md`），收尾必 `save`。
+
+## 铁律
+
+**MUST**
+- 不确定的属性名先 `help` 查，禁止猜参数名（guess-fail-retry 循环禁令）。
+- 所有 `[N]` 路径加引号；含 `$` 的值用单引号；含 `!` 的跨表公式走 `<<'EOF'` heredoc。
+- 改前 `view outline`、改后 `get` 回读；用 `shape[@name=X]` / `p[@paraId=...]` 命名寻址而非位置索引（插入删除后不漂移）。
+- 交付前四层门禁：`validate` → `view issues` → token 泄漏 grep → 视觉渲染检查。
+- Excel 能算的数字一律公式，禁止硬编码计算值；每个分母 `IFERROR` 守卫。
+- PPT 图表 Y 轴必须 `axismin=0`（增长折线不许从非零起画）。
+
+**NOT**
+- 禁止用空段落排版（用 spaceBefore/After）；禁止 `###`、`{{}}`、`$xxx$`、`<TODO>`、`\n` 字面量出现在交付物。
+- 禁止把图表/页码当静态截图或死文本：数据走原生 chart，页码走 PAGE field。
+- 禁止用 1 行表格画水平线（用段落底边框 `pbdr.bottom`）。
+- 禁止 `calc.iterate` 掩盖 `#REF!`/发散环；禁止把叙事文字写进 `{"formula":...}`。
+- 禁止引用没有 source 注脚的指标数字。
+
+## 参考索引
+
+每个 reference 按"第一步→判据→如何证明根因"组织；四层交付门禁细节在 `quality-gates.md`。
+

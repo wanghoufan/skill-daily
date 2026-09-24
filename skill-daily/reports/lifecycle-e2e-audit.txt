@@ -1,0 +1,14 @@
+Skill 日报引擎 V1.4 lifecycle E2E 审计（真实池复制到临时内存做合成 mutation；External 文件零改动）
+========================================================================
+external_resolution: mode=sibling_transfer_package env_override_used=no
+base_pool: 1106 candidates（SKILL_CANDIDATES.json version 11，只读）
+Scenario1 Day2: 删除 Day1 已展示的 stablyai/orca/orca-emulator-android
+  -> removed notified: True
+     event_type=removed risk_kind=no_longer_relevant reason=no_longer_relevant
+Scenario2 Day2: 把 Day1 已展示的 github/awesome-copilot/dependabot 合成改为 reject（security 字段不变）
+  -> downgraded notified: True event_type=status_downgraded risk_kind=status_downgrade
+  lifecycle(day2): {"removed_from_pool": 1, "returned_to_pool": 0, "status_downgraded": 1, "status_upgraded": 0, "replacement_candidates": 0}
+Scenario3 Day3: 恢复原候选池（stablyai/orca/orca-emulator-android 重新进入）
+  -> returned notified: True reason=candidate_returned
+  lifecycle(day3): {"removed_from_pool": 0, "returned_to_pool": 1, "status_downgraded": 0, "status_upgraded": 1, "replacement_candidates": 0}
+GATES: removed 通知一次 / 降级不静默 / 重现不冒充全新

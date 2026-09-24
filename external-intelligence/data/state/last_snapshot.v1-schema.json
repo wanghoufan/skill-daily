@@ -1,0 +1,4874 @@
+{
+ "anthropics/skills/academy-guide": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/algorithmic-art": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/brand-guidelines": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/canvas-design": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/claude-api": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/discernment-nudge": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/doc-coauthoring": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/docx": {
+  "score": 57,
+  "recommendation": "watch",
+  "risk": "medium",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "anthropics/skills/frontend-design": {
+  "score": 64,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/internal-comms": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/mcp-builder": {
+  "score": 82,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "anthropics/skills/pdf": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/pptx": {
+  "score": 57,
+  "recommendation": "watch",
+  "risk": "medium",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "anthropics/skills/skill-creator": {
+  "score": 64,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "anthropics/skills/slack-gif-creator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/theme-factory": {
+  "score": 47,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/web-artifacts-builder": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "anthropics/skills/webapp-testing": {
+  "score": 86,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "anthropics/skills/xlsx": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "medium",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "stablyai/orca/computer-use": {
+  "score": 42,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/linear-tickets": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/orca-cli": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/orca-emulator-android": {
+  "score": 69,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "stablyai/orca/orca-emulator": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/orca-linear": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/orca-per-workspace-env": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "stablyai/orca/orchestration": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/acquire-codebase-knowledge": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/acreadiness-assess": {
+  "score": 63,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/acreadiness-generate-instructions": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/acreadiness-policy": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ad-campaign-analyzer": {
+  "score": 62,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/add-educational-comments": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/adobe-illustrator-scripting": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agent-architecture": {
+  "score": 75,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agent-governance": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agent-owasp-compliance": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agent-skill-stack": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agent-supply-chain": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/agentic-eval": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ai-prompt-engineering-safety-review": {
+  "score": 62,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ai-ready": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ai-team-orchestration": {
+  "score": 62,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/anti-ui-slop": {
+  "score": 80,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/api-breaking-change-detector": {
+  "score": 63,
+  "recommendation": "recommend",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/appinsights-instrumentation": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/apple-appstore-reviewer": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arch-linux-triage": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/architecture-blueprint-generator": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arduino-azure-iot-edge-integration": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-ai-provider-integration": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-annotation": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-dataset": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-evaluator": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-experiment": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-instrumentation": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-link": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-prompt-optimization": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/arize-trace": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aspire": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aspnet-minimal-api-openapi": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/audit-integrity": {
+  "score": 58,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/automate-this": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/autoresearch": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-cdk-python-setup": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-cloudwatch-investigation": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-cost-optimize": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-resource-health-diagnose": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-resource-query": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/aws-well-architected-review": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/az-cost-optimize": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-architecture-autopilot": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-container-registry-cli": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-deployment-preflight": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-developer-cli": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-devops-cli": {
+  "score": 0,
+  "recommendation": "reject",
+  "risk": "high",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-pricing": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-resource-health-diagnose": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-resource-visualizer": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-role-selector": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "low",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-smart-city-iot-solution-builder": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-static-web-apps": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/azure-well-architected-review": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/batch-files": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/bench-read": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/bigquery-pipeline-audit": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/boost-prompt": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/brag-sheet": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-epic-arch": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-epic-pm": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-feature-implementation": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-feature-prd": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/breakdown-test": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/bug-receipt": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/bug-reproduction-brief": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/build-evidence-map": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/centos-linux-triage": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/chrome-devtools": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/cli-mastery": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/cloud-design-patterns": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/code-exemplars-blueprint-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/code-tour": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/codebase-memory-mcp": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/codeql": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/comment-code-generate-a-tutorial": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/commit-message-storyteller": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/competitor-ad-intelligence": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/containerize-aspnet-framework": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/containerize-aspnetcore": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/content-management-systems": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/context-map": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/conventional-branch": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/conventional-commit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/convert-excel-to-md": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/convert-pdf-to-md": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/convert-plaintext-to-md": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/convert-word-to-md": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-cli-quickstart": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-instructions-blueprint-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-pr-autopilot": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-sdk": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-spaces": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/copilot-usage-metrics": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/cosmosdb-datamodeling": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-agentsmd": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-architectural-decision-record": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-github-action-workflow-specification": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-github-issue-feature-from-specification": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-github-issues-feature-from-implementation-plan": {
+  "score": 34,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-github-issues-for-unmet-specification-requirements": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-implementation-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-llms": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-readme": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-specification": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-spring-boot-java-project": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-spring-boot-kotlin-project": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-technical-spike": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/create-tldr-page": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/creating-oracle-to-postgres-master-migration-plan": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/creating-oracle-to-postgres-migration-bug-report": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/creating-oracle-to-postgres-migration-integration-tests": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-async": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-docs": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-mstest": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-nunit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-tunit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/csharp-xunit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/d365-solution-blueprint": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/daily-focus-board": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/daily-prep": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/data-breach-blast-radius": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/datanalysis-credit-risk": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dataverse-python-advanced-patterns": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dataverse-python-production-code": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dataverse-python-quickstart": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dataverse-python-usecase-builder": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/debian-linux-triage": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/declarative-agents": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dependabot": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/desk-journal": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/desk-open": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/devops-rollout-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/diagnose": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/doc-and-modernize": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/docs-sync-audit": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/documentation-writer": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dotnet-best-practices": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dotnet-design-pattern-review": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dotnet-mcp-builder": {
+  "score": 63,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dotnet-timezone": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/dotnet-upgrade": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/doublecheck": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/draw-io-diagram-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/drawio": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/editorconfig": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ef-core": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/efcore-d2-db-diagram": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/em-dash": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/email-drafter": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/entra-agent-user": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/eval-driven-dev": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/exam-ready": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/excalidraw-diagram-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/eyeball": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/fabric-lakehouse": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/fedora-linux-triage": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/finalize-agent-prompt": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/finnish-humanizer": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/first-ask": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/flowstudio-power-automate-build": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/flowstudio-power-automate-debug": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/flowstudio-power-automate-governance": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/flowstudio-power-automate-mcp": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/flowstudio-power-automate-monitoring": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/fluentui-blazor": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/folder-structure-blueprint-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/foundry-agent-sync": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/foundry-hosted-agent-copilotkit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/freecad-scripts": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/from-the-other-side-anitta": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/from-the-other-side-quinn": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/from-the-other-side-vega": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/from-the-other-side-wiggins": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/game-engine": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gdpr-compliant": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gem-devops-guidelines": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gen-specs-as-issues": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/generate-custom-instructions-from-codebase": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/generate-image": {
+  "score": 52,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/geofeed-tuner": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gh-attach": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/git-commit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/git-flow-branch-creator": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-actions-efficiency": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-actions-hardening": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-actions-runtime-upgrade-conventions": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-codespaces-efficiency": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-copilot-starter": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-issues": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/github-release": {
+  "score": 30,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gitmoji": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/go-mcp-server-generator": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gsap-framer-scroll-animation": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-0-to-1-launch": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-ai-gtm": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-board-and-investor-communication": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-developer-ecosystem": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-enterprise-account-planning": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-enterprise-onboarding": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-operating-cadence": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-partnership-architecture": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-positioning-strategy": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-product-led-growth": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/gtm-technical-product-pricing": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/harness-engineering": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/image-annotations": {
+  "score": 52,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/image-manipulation-image-magick": {
+  "score": 52,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/impediment-prioritization": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/import-infrastructure-as-code": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/incident-postmortem": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/integrate-context-matic": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/issue-fields-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-add-graalvm-native-image-support": {
+  "score": 52,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-docs": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-helidon": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-junit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-refactoring-extract-method": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-refactoring-remove-parameter": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/java-springboot": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/javascript-typescript-jest": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/javax-to-jakarta-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/kotlin-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/kotlin-springboot": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/landing-page-conversion-audit": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/latchshot-page-capture": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/legacy-circuit-mockups": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/linkedin-post-formatter": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/lsp-setup": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/macos-golden-gate-design": {
+  "score": 63,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/make-repo-contribution": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/markdown-to-html": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/markstream-install": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-cli": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-copilot-studio-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-create-adaptive-cards": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-create-declarative-agent": {
+  "score": 46,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-deploy-manage-agents": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-implementation-security-review": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-release-qa": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mcp-security-audit": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/md-to-docx": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/meeting-minutes": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/memory-merger": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mentoring-juniors": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/microsoft-agent-framework": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/microsoft-code-reference": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/microsoft-docs": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/microsoft-skill-creator": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/migrating-oracle-to-postgres-data-access-code": {
+  "score": 56.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/migrating-oracle-to-postgres-stored-procedures": {
+  "score": 56.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/minecraft-plugin-development": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mini-context-graph": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mkdocs-translations": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/msgraph-sdk": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/msstore-cli": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/multi-stage-dockerfile": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mvvm-toolkit-di": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mvvm-toolkit-messenger": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/mvvm-toolkit": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/namecheap": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/nano-banana-pro-openrouter": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/napkin": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/next-intl-add-language": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/noob-mode": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/nuget-manager": {
+  "score": 25,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/onboard-context-matic": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/oo-component-documentation": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/openapi-to-application-code": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/optimize-simplicite-logs": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pdftk-server": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/penpot-uiux-design": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/performance-review-writer": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pester-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pester-should-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/phoenix-cli": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/phoenix-evals": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/phoenix-tracing": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/php-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pinecone-rag": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/plantuml-ascii": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/playwright-automation-fill-in-form": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/playwright-explore-website": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/playwright-generate-test": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/poka-yoke": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/postgresql-code-review": {
+  "score": 55.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/postgresql-optimization": {
+  "score": 56.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-apps-code-app-scaffold": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-bi-dax-optimization": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-bi-model-design-review": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-bi-performance-troubleshooting": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-bi-report-design-consultation": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-platform-architect": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/power-platform-mcp-connector-suite": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/powerbi-modeling": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pr-dashboard": {
+  "score": 52,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pr-screenshots": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/prd": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/premium-frontend-ui": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/project-workflow-analysis-blueprint-generator": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/prompt-optimizer": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/protobuf-grpc-api-review": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/publish-to-pages": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/pytest-coverage": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/python-azure-iot-edge-modules": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/python-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/python-pypi-package-builder": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-clients-sdk": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-deployment-options": {
+  "score": 38,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-model-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-monitoring": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-performance-optimization": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-scaling": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-search-quality": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/qdrant-version-upgrade": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/quality-playbook": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/quasi-coder": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react-audit-grep-patterns": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react-container-presentation-component": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-batching-patterns": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-dep-compatibility": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-enzyme-to-rtl": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-legacy-context": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-lifecycle-patterns": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react18-string-refs": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react19-concurrent-patterns": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react19-source-patterns": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/react19-test-patterns": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/readme-blueprint-generator": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/refactor-method-complexity-reduce": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/refactor-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/refactor": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/remember-interactive-programming": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/remember": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/repo-standardizer": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/repo-story-time": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/resemble-detect": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/resx-source-generator-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/review-and-refactor": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/reviewing-oracle-to-postgres-migration": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/rhino3d-scripts": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/roslyn-analyzers": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/roundup-setup": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/roundup": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ruby-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ruff-recursive-fix": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/rust-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/salesforce-apex-quality": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/salesforce-component-standards": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/salesforce-flow-design": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sandbox-npm-install": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/scoutqa-test": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/screen-recording": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/secret-scanning": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/security-review": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/semantic-kernel": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/server-side-conversion-tracking": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/setup-my-iq": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/shopify-review-triage": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/shuffle-json-data": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/signal-write": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/slang-shader-engineer": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/snowflake-semanticview": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/speak-summary": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sponsor-finder": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/spring-boot-testing": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sql-code-review": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sql-object-impact-analysis": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sql-optimization": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/sql-server-table-reconciliation": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ssma-console": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/steno-mode": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/structured-autonomy-generate": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/structured-autonomy-implement": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/structured-autonomy-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/suggest-awesome-github-copilot-agents": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/suggest-awesome-github-copilot-instructions": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/suggest-awesome-github-copilot-skills": {
+  "score": 33,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/swift-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/system-commandline-cli": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/technical-job-search": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/technology-stack-blueprint-generator": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/terraform-azurerm-set-diff-analyzer": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/test-gap-audit": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/threat-model-analyst": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/tiny-stepping": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/tldr-prompt": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/tm7-threat-model": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/transloadit-media-processing": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/tugboat": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/typescript-mcp-server-generator": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/typespec-api-operations": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/typespec-create-agent": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/typespec-create-api-plugin": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/ui-screenshots": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/unit-test-vue-pinia": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/update-avm-modules-in-bicep": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/update-implementation-plan": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/update-llms": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/update-markdown-file-index": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/update-specification": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/upstash-redis": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/vardoger-analyze": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/vcpkg": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/verify-agent-action": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/vscode-ext-commands": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/vscode-ext-localization": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/web-design-reviewer": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/webapp-testing": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/webmcpify": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/what-context-needed": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/winmd-api-search": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/winui3-migration-guide": {
+  "score": 68,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "github/awesome-copilot/workiq-copilot": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/workshop-create": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/write-coding-standards-from-file": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "github/awesome-copilot/x-twitter-scraper": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/skills/find-skills": {
+  "score": 31,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/composition-patterns": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/deploy-to-vercel": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/react-best-practices": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/react-native-skills": {
+  "score": 35,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/react-view-transitions": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/vercel-cli-with-tokens": {
+  "score": 40,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/vercel-optimize": {
+  "score": 37,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/web-design-guidelines": {
+  "score": 57,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "vercel-labs/agent-skills/writing-guidelines": {
+  "score": 58,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "google/skills/ads": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "google/skills/analytics": {
+  "score": 59,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "google/skills/cloud": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "google/skills/developers": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "google/skills/identity": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cli": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-aws-context-discovery": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-python-env-setup": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-sagemaker-deployment-planner": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-sagemaker-iam-preflight": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-sagemaker-production-defaults": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-cloud-serving-image-selection": {
+  "score": 59,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "none",
+  "install_count": 0
+ },
+ "huggingface/skills/hf-mem": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-best": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-community-evals": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-datasets": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-gradio": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-llm-trainer": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-local-models": {
+  "score": 35,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-lora-space-builder": {
+  "score": 58,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-paper-publisher": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-papers": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-spaces": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-tool-builder": {
+  "score": 58,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-trackio": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-vision-trainer": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/huggingface-zerogpu": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/train-sentence-transformers": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/transformers-js": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "huggingface/skills/trl-training": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "microsoft/skills/docs-site": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "microsoft/skills/docs": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "microsoft/skills/hooks": {
+  "score": 36,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "microsoft/skills/tests": {
+  "score": 58,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 1,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "gentleman-programming/gentle-ai/gentle-ai": {
+  "score": 29,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "sasanlabs/vulnerableapp/vulnerableapp": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "rush-db/rushdb/rushdb": {
+  "score": 56.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "salacoste/mcp-n8n-workflow-builder/mcp-n8n-workflow-builder": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "covagashi/eplan-rag-mcp/eplan-rag-mcp": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "channingyuan/usagebar/usagebar": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "pluginslab/wp-agentic-kit/wp-agentic-kit": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "voidmatcha/e2e-skills/e2e-skills": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "willcoliveira/qualiow-playwright-skills/qualiow-playwright-skills": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "khasky/awesome-agent-skills/awesome-agent-skills": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "fraiseql/pggit/pggit": {
+  "score": 60.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "alphaparkinc/genpark-genoffice-document-agent-suite-skill/genpark-genoffice-document-agent-suite-skill": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "bacoco/shipguard/shipguard": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "matthewdeaves/old-mac-quake2/old-mac-quake2": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "hackermanishackerman/claude-skills-vault/claude-skills-vault": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "jtsang4/efficient-coding/efficient-coding": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "surd-pollywog583/mycop/mycop": {
+  "score": 68,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "mvanhorn/clawdbot-skill-supabase/clawdbot-skill-supabase": {
+  "score": 65.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "none",
+  "install_count": 0
+ },
+ "borjani1577/claude-office-skills/claude-office-skills": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "cskwork/superoffice-skills/superoffice-skills": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "alpha-park/genpark-genoffice-document-agent-suite-skill/genpark-genoffice-document-agent-suite-skill": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "dashya-bit9/data-parser-extractor/data-parser-extractor": {
+  "score": 69,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "none",
+  "install_count": 0
+ },
+ "spencerraw/excel2docx/excel2docx": {
+  "score": 47,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "cianmccarthyucc/spotify-model-context-protocol-tutorial-claude-builders-club-ucc/spotify-model-context-protocol-tutorial-claude-builders-club-ucc": {
+  "score": 64,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "frun1753/claude-codecraft-toolkit/claude-codecraft-toolkit": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "nariatrip191/my-claude-skills/my-claude-skills": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "namht4devlop/claude-code-workflow-kit/claude-code-workflow-kit": {
+  "score": 51,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "gonggongplus/skill-office-docs/skill-office-docs": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "srworkbench/spreadsheet-to-documents/spreadsheet-to-documents": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "none",
+  "install_count": 0
+ },
+ "dawoodahmedkhan05/ai-business-process-automation-system/ai-business-process-automation-system": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "lcoser79/word-report-automation/word-report-automation": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "kdylan1010-alt/venture-studio-portfolio/venture-studio-portfolio": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "wine-fall/which-account/which-account": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "phonemeknights-785071/worldshards-devlog-2026/worldshards-devlog-2026": {
+  "score": 27,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "api-evangelist/mcp360/mcp360": {
+  "score": 50,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "none",
+  "install_count": 0
+ },
+ "josequevedov08/mcp-builder-munichtech/mcp-builder-munichtech": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "lingikaushikreddy/mcp-rust-sdk/mcp-rust-sdk": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "bettinamindless552/appsec-skills/appsec-skills": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "ajithkumar8/dependency-confusion-hunter/dependency-confusion-hunter": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "onezero-network/mcp-threat-intel/mcp-threat-intel": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "ksx9797/security-sweep-plugin/security-sweep-plugin": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "mishrabhi/job-marketplace-backend/job-marketplace-backend": {
+  "score": 62,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "jpborrelli/wachines-plugin-ironman/wachines-plugin-ironman": {
+  "score": 58.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "rowshape/rowshape/rowshape": {
+  "score": 58.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "saraswatanmol202-dev/ai-data-migration-copilot/ai-data-migration-copilot": {
+  "score": 58.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "eric-sunday/schemaguard-agent/schemaguard-agent": {
+  "score": 58.5,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "mejbaurbahar/software-tester-skills/software-tester-skills": {
+  "score": 49,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "rogue-dev-studio/rogue-browser-automation-skill/rogue-browser-automation-skill": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 2,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "vercel-labs/skills/the open agent skills ecosystem": {
+  "score": 27,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 101120
+ },
+ "mattpocock/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 64738
+ },
+ "vercel-labs/agent-skills/agent-skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 49730
+ },
+ "heygen-com/hyperframes/hyperframes": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 47726
+ },
+ "remotion-dev/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 47117
+ },
+ "juliusbrussee/caveman/caveman": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 45601
+ },
+ "prisma/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 43439
+ },
+ "leonxlnx/taste-skill/taste-skill": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 43398
+ },
+ "supabase/agent-skills/agent-skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 43156
+ },
+ "pbakaus/impeccable/impeccable": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 43090
+ },
+ "genmedia-labs/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 43003
+ },
+ "flowkit-labs/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 42586
+ },
+ "microsoft/azure-skills/azure-skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 39468
+ },
+ "larksuite/cli/cli": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 37151
+ },
+ "vercel-labs/agent-browser/agent-browser": {
+  "score": 32,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 33671
+ },
+ "anthropics/skills/skills": {
+  "score": 24,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 26152
+ },
+ "obra/superpowers/superpowers": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 23518
+ },
+ "assets/styles-cu312euh.css/styles-cu312euh.css": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/design-system-crchlbu8.css/design-system-crchlbu8.css": {
+  "score": 44,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/index-cinmy2li.js/index-cinmy2li.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/rolldown-runtime-hepw80vl.js/rolldown-runtime-hepw80vl.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/use_queries-n-xwoxgk.js/use_queries-n-xwoxgk.js": {
+  "score": 22,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/dist-dzgkvitx.js/dist-dzgkvitx.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/badge-c9gtlguz.js/badge-c9gtlguz.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/not-found-i5rsczif.js/not-found-i5rsczif.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/api-cnfrjvmr.js/api-cnfrjvmr.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/match-dcdwzypn.js/match-dcdwzypn.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/userouterstate-dkl9vd3x.js/userouterstate-dkl9vd3x.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/dialog-txis8vfr.js/dialog-txis8vfr.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/og-b_woahoh.js/og-b_woahoh.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/skillreportdialog-lww1gzly.js/skillreportdialog-lww1gzly.js": {
+  "score": 28,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/runtimeenv-cp6vzt8a.js/runtimeenv-cp6vzt8a.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/client-bdydmtt4.js/client-bdydmtt4.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/catalogmetadataeditor-bsh9dlgg.js/catalogmetadataeditor-bsh9dlgg.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/skilldetailpage-byded3zd.js/skilldetailpage-byded3zd.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/numberformat-wsy1h0nc.js/numberformat-wsy1h0nc.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/arrow-right-jezsepqc.js/arrow-right-jezsepqc.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/browsecategoryicons-c_havkmp.js/browsecategoryicons-c_havkmp.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/timeago-ctfu6g0l.js/timeago-ctfu6g0l.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/_name-bz8b3jml.js/_name-bz8b3jml.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/marketplaceicon-coqi21cv.js/marketplaceicon-coqi21cv.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/check-c41632g2.js/check-c41632g2.js": {
+  "score": 22,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/chevron-down-cocunegc.js/chevron-down-cocunegc.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/chevron-right-aa7c11w6.js/chevron-right-aa7c11w6.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/securityauditpage-dg83kzpa.js/securityauditpage-dg83kzpa.js": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "assets/installcopybutton-lfxne7fi.js/installcopybutton-lfxne7fi.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/download-bcsxtyb3.js/download-bcsxtyb3.js": {
+  "score": 22,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/file-text-cnyobkg2.js/file-text-cnyobkg2.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/flag-zv8trsuy.js/flag-zv8trsuy.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/sidebarmetadata-knsfmir8.js/sidebarmetadata-knsfmir8.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/browsecontrols-bhrxqlcq.js/browsecontrols-bhrxqlcq.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/plus-yis8l6vp.js/plus-yis8l6vp.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/refresh-cw-dilkt41b.js/refresh-cw-dilkt41b.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/skilldetailpageview-bt_5vbcm.js/skilldetailpageview-bt_5vbcm.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/codewraptoggle-b-s7uozx.js/codewraptoggle-b-s7uozx.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/triangle-alert-d4zdliff.js/triangle-alert-d4zdliff.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/markdownpreview-buds9bas.js/markdownpreview-buds9bas.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/x-tljazxyn.js/x-tljazxyn.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/button-cnifu1u3.js/button-cnifu1u3.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/dropdown-menu-ca0dzyn3.js/dropdown-menu-ca0dzyn3.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/utils-dojpp95n.js/utils-dojpp95n.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/defineproperty-bbfpz9tg.js/defineproperty-bbfpz9tg.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/manualcatalogsearch-jumeqkec.js/manualcatalogsearch-jumeqkec.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/dist-d3p9oa-d.js/dist-d3p9oa-d.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/skillsecurityscanresults-dianuxmh.js/skillsecurityscanresults-dianuxmh.js": {
+  "score": 45,
+  "recommendation": "watch",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "weak",
+  "install_count": 0
+ },
+ "assets/packageapi-dfr0_b2n.js/packageapi-dfr0_b2n.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ },
+ "assets/ownerroute-bhvppjr5.js/ownerroute-bhvppjr5.js": {
+  "score": 23,
+  "recommendation": "ignore",
+  "risk": "unknown",
+  "source_tier": 3,
+  "gap": "strong",
+  "install_count": 0
+ }
+}

@@ -1,0 +1,75 @@
+{
+  "version": 5,
+  "comment": "个性化评分权重（总分100）。调整后无需改代码；thresholds 控制 install_candidate/watch 分界。recommendation 取值域：install_candidate / watch / ignore / reject。",
+  "weights": {
+    "PROJECT_MATCH": 25,
+    "CAPABILITY_GAP": 20,
+    "SOURCE_TRUST": 15,
+    "SECURITY": 15,
+    "MAINTENANCE": 10,
+    "ADOPTION_TREND": 5,
+    "DETOUR_REDUCTION": 5,
+    "NOVELTY_VS_INSTALLED": 5
+  },
+  "thresholds": {
+    "install_candidate": 62,
+    "watch": 45
+  },
+  "tier_trust_ceiling": {
+    "0": 0,
+    "1": 15,
+    "2": 10,
+    "3": 9,
+    "unverified": 3
+  },
+  "top_candidates": {
+    "target_limit": 30,
+    "min_score": 50,
+    "require_personalized_evidence": true,
+    "t3_requires_corroboration": true,
+    "allowed_recommendations": [
+      "install_candidate",
+      "watch"
+    ],
+    "forbidden_recommendations": [
+      "ignore",
+      "reject"
+    ],
+    "max_per_repo": 4,
+    "fold_same_family": true,
+    "fold_cross_repo_family": true,
+    "require_no_internal": true,
+    "require_no_competitor_conflict": true
+  },
+  "notes": {
+    "PROJECT_MATCH": "命中 SKILL_CONTEXT.md 的 needs 权重后归一化：wsum/2.6；命中具体项目（matched_projects 非空）再 +1/项目（上限 +3）。无需求证据 = 0 分。命中平台错配再 ×0.35",
+    "CAPABILITY_GAP": "none=20 weak=15 medium=8 strong=2；overlap/near_duplicate 封顶 5；coverage=strong 但 availability=degraded 按 medium 计；若无需求证据则封顶 5",
+    "ADOPTION_TREND": "install_count 只占 5 分——排行榜/安装量绝不能等于推荐",
+    "SECURITY": "按 verdict 计分：pass=15 / review_required=7 / block=0 / unscanned=4；block 级直接 reject 且不参与评分；unscanned 不得成为 install_candidate",
+    "SOURCE_TRUST": "TIER 只决定信任上限；awesome-copilot 按『宿主官方、内容社区』取 medium；source_tier=null（unverified，如 bottom-up 搜索结果）取最低档 3",
+    "RELEVANCE_VETO": "相关性否决（先于 install_candidate 判定）：未命中任何项目需求，或命中平台错配（azure/gcp/aws/java 等用户技术栈中不存在的平台）→ 分数再高也最高只能 watch",
+    "TIER2_HARD_GATE": "bottom-up 搜索只是 discovery_channel，不等于 TIER 2。必须过「存在真实 SKILL.md + 可定位 skill directory + frontmatter 可解析」硬门；未在注册表验证过的来源一律 source_tier=null(unverified)，绝不自动升级为 T2",
+    "DATA_QUALITY_GATE": "聚合源的前端构建产物（.css/.js/.map/图片/字体、assets|static|build|dist 路径、hash 文件名）不得进入正式候选池，只留在 raw discovery 作为抓取证据",
+    "MATCH_RULE": "语义匹配为 MATCH_RULE：all_groups（组间 AND / 组内 OR）+ any_of + none_of + context_terms。禁止用单个宽泛关键词决定高权重需求或能力缺口；mobile_qa 必须『移动平台证据 AND QA/设备/构建验收证据』，supabase_db 必须真 Supabase 或 RLS 语境（普通 PostgreSQL 归 postgres_db）",
+    "KEYWORD_MATCHING": "关键词一律整词/短语匹配，禁止子串（2026-09-22 修复：`ui` 命中 build/require/guidance 曾使 PROJECT_MATCH 恒为满分）",
+    "DEEP_SCAN": "两阶段安全审查：PASS 1 扫 SKILL.md；PASS 2 对进入 install 候选的 Skill 目录抓取 .py/.sh/.js/.ts/.mjs/.cjs/.ps1 与 package.json 的 postinstall/preinstall 做静态读取。deep_scan_status 必须为 complete 且无 block 级 finding 才能成为 install_candidate。只静态读取，绝不执行脚本",
+    "scan_budget": "PASS 1 静态安全审查抓取上限（raw.githubusercontent，不占 API 配额）。v2.7：预算按 preliminary 排序分配曾被语义变化饿死（落选者描述为空→分类失真），提到 1200 覆盖全池；抓取失败仍 fail-closed 记 unscanned，不静默造假",
+    "deep_scan_budget": "PASS 2 深度静态审查的候选数上限（按分数降序取；每个候选最多 deep_scan_max_files 个文件）",
+    "deep_scan_max_files": "单个 Skill 目录在 PASS 2 中最多静态读取的文件数",
+    "bottom_up_verify_budget": "bottom-up 搜索结果做硬门校验（tree API 查真实 SKILL.md）的仓库数上限，按 star 降序取；其余直接隔离，控制 GitHub API 用量",
+    "scan_workers": "并发抓取线程数（raw.githubusercontent 无 API 配额；串行 600 次要十几分钟，并发后约 1-2 分钟）",
+    "top30_diversity": "Top 展示『不同能力』而非同一 SDK 的变体：同仓库最多 3 条、同族折叠；但多样性不得压过质量——执行顺序固定为 hard gates → 需求匹配 → recommendation>=watch → score → diversity，不足 30 个就输出实际数量",
+    "TOP_QUALITY_GATE": "v2.9 §四.13：Top 恢复候选必须同时满足真实需求、产品适用、领域适用、完成安全审查、非纯内部自动化；min_score 50 + 同仓库上限 4 是资格参数，不得用来塞进无关云厂商/内部工具/协议文档。",
+    "FUNCTIONAL_CLUSTER": "v2.3 §三/§八：候选池仍按 owner/repo/skill 独立记账；展示层做跨 repo 功能族折叠。同族判定综合 normalized skill name（同名且 ≥5 字符）、description 相似度（jaccard ≥ 0.62 且名称同前缀）、content fingerprint（完全一致）三类信号。同族只展示 PRIMARY，其余进 alternatives",
+    "PROJECT_MATCH_DIRECT_EVIDENCE": "v2.3 §一/§六：matched_projects 必须先有 DIRECT_PROJECT_EVIDENCE 才能成立——① 候选能力与项目明确技术栈直接命中 ② 候选任务与项目定位语义直接命中 ③ 项目自身需求与候选能力直接命中 ④ 项目定位与候选描述词面直接重叠（≥5 字符长词）。「同属 Web/PWA / Android / macOS」的类型适用只作 secondary boost（TYPE_W=10），**不得单独产生项目匹配**；无直接证据宁可 matched_projects=[]。覆盖面（coverage）不再是 KPI，准确率优先",
+    "SECURITY_CONTEXT_GATE": "v2.3 §四：always_block 规则不再命中即 block——必须先判 behavior_context。block 仅限 remote_execution / executable / 明确祈使 instruction；mention 与 warning（never / do not / 禁止 / 不要 / 举反例 / 安全审计文档）一律只 review_required，交人工判断",
+    "FULL_SCAN_QUEUE": "v2.9 §四.6/§四..7：深度安全审查队列覆盖全池（deep_scan_budget 抬到全池量级），但硬 Gate 命中者一律不入队；「仅名称含品牌词」不算 Gate，不得据此挡队列。",
+    "PRODUCT_RELATIONS": "v2.9 §二：产品关系来自 config/product_relationships.json（竞品关系逐条带依据），只用于判断产品关系与领域，不用于质量评分；名称含 Claude/Codex/Copilot/Gemini 不构成低质、风险或不相关。",
+    "DOMAIN_THREE_STATE": "v2.9 §三.3：候选领域三态 适用 / 不适用 / 信息不足；「不适用」必须由输入A的明确低优先级清单证明，「信息不足」= 未解除且未排除，默认不入推荐队列但保留原池、记录解除测试。"
+  },
+  "scan_budget": 1200,
+  "scan_workers": 10,
+  "deep_scan_budget": 1200,
+  "deep_scan_max_files": 8,
+  "bottom_up_verify_budget": 40
+}

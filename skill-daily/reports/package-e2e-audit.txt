@@ -1,0 +1,58 @@
+Skill 日报引擎 V1.4 package E2E 审计（最终 zip 解包字节 + v2.11 转送包实际运行）
+========================================================================
+EXTERNAL_RESOLUTION:
+mode: sibling_transfer_package
+env_override_used: no
+
+PACKAGE_ENV:
+external_snapshot_present: no
+baseline_source: none_first_run_zero_new
+layout: 同级转送包（转送审查者 v5 材料（外部情报层）与 skill-daily 平级、平铺）
+dates: 2026-09-24 / 2026-09-25 / 2026-10-01（Day1/Day2/Day8）
+
+DAY1: 2026-09-24
+report_mode: initial_baseline
+shown: 10  (install=5 restore=3 update=1 replace=0 watch=1 risk=0)
+delta_source: none_first_run_zero_new
+lifecycle: {"removed_from_pool": 0, "returned_to_pool": 0, "status_downgraded": 0, "status_upgraded": 0, "replacement_candidates": 0}
+unchanged_repeated_items: 0  stale_backlog_items: 0  non_material_daily_items: 0
+keys:
+  stablyai/orca/computer-use
+  stablyai/orca/orca-cli
+  stablyai/orca/orchestration
+  browseros-ai/browseros/browseros-neo
+  stablyai/orca/orca-emulator-android
+  github/awesome-copilot/ai-prompt-engineering-safety-review
+  github/awesome-copilot/webapp-testing
+  github/awesome-copilot/dependabot
+  wshobson/agents/e2e-testing-patterns
+  microsoft/skills/frontend-design-review
+
+DAY2: 2026-09-25
+report_mode: daily_delta
+shown: 0
+lifecycle: {"removed_from_pool": 0, "returned_to_pool": 0, "status_downgraded": 0, "status_upgraded": 0, "replacement_candidates": 0}
+unchanged_repeated_items: 0  stale_backlog_items: 0  non_material_daily_items: 0
+keys:
+
+DAY8: 2026-10-01（从 Day1 状态重放）
+report_mode: daily_delta
+shown: 9
+lifecycle: {"removed_from_pool": 0, "returned_to_pool": 0, "status_downgraded": 0, "status_upgraded": 0, "replacement_candidates": 0}
+unchanged_repeated_items: 0  stale_backlog_items: 0  non_material_daily_items: 0
+reasons:
+  stablyai/orca/computer-use: cooldown_reminder
+  stablyai/orca/orca-cli: cooldown_reminder
+  stablyai/orca/orchestration: cooldown_reminder
+  browseros-ai/browseros/browseros-neo: cooldown_reminder
+  stablyai/orca/orca-emulator-android: cooldown_reminder
+  github/awesome-copilot/ai-prompt-engineering-safety-review: cooldown_reminder
+  github/awesome-copilot/webapp-testing: cooldown_reminder
+  github/awesome-copilot/dependabot: cooldown_reminder
+  wshobson/agents/e2e-testing-patterns: cooldown_reminder
+
+CONSISTENCY:
+day1_day2_intersection: []
+day8_keys_subset_of_day1: True
+unshown_backlog_appeared_day8: []
+HARD_GATES: day2 shown=0 AND stale=0 AND non_material=0 AND day8⊆day1

@@ -1,0 +1,23 @@
+反馈闭环演示（V1.4 引擎，真实执行，命令与输出摘录）
+执行环境：最终 zip 解包字节 + v2.11 转送包（同级布局、无外部快照、未设环境变量），报告日 2026-09-24
+
+$ python3 scripts/feedback.py stablyai/orca/orca-cli deferred "先不弄 Orca CLI"
+已记录反馈：stablyai/orca/orca-cli → deferred（2026-09-24）
+
+$ python3 scripts/build_daily.py
+[initial_baseline] shown 10 / pool 1106 | install=5 restore=2 update=1 watch=2 risk=0 | suppressed={'repeat_cooldown': 0, 'functional_duplicate': 7, 'capability_family_quota': 223, 'unchanged_watch': 0, 'metadata_only': 0, 'feedback': 1, 'baseline_backlog': 0, 'non_material_today': 0, 'no_longer_relevant_unseen': 0} | unchanged_repeated_items=0 stale_backlog_items=0 non_material_daily_items=0 delta_source=daily_candidate_baseline
+（reports/2026-09-24.md 中 orca-cli 出现次数：0）
+
+效果（V1.4 口径）：
+* orca-cli 被 deferred 压住（restore 3→2；suppressed.feedback=1）；
+* 空出的第 10 位由 backlog 中优先级最高的观察项补上——这只可能发生在【当天】：
+  当天仍是 initial_baseline 静态视图重排；从次日起 baseline_backlog 永不自动轮播（§五）；
+* deferred 7 天内不再重复；反馈更新本身是突破冷却的合法事件；
+* 演示后已回滚：data/SKILL_FEEDBACK.json = {}，交付态 Day1 日报与 package-e2e-audit DAY1 一致。
+
+$ python3 scripts/feedback.py --list
+2026-09-24  deferred   stablyai/orca/orca-cli  备注：先不弄 Orca CLI
+
+机器合同：items[] 含 report_reason_type / material_today_evidence / feedback_effect /
+feedback_reason；ignored/poor/useful 规则由测试 t10/t11/t12 复算；
+反馈再入（feedback_reentry）由 t53 复算；backlog 不轮播由 t45/t47/t55/t56 复算。

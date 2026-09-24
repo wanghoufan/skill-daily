@@ -1,0 +1,28 @@
+{
+  "_comment": "Skill 日报引擎 V1.4 配置。全部动作冷却周期、展示族配额、tombstone_retention_days 与上限在此配置化，不硬编码；auto_install 恒为 false。",
+  "max_daily_items": 10,
+  "min_daily_items": 0,
+  "watch_repeat_days": 7,
+  "ignored_repeat_days": 7,
+  "deferred_repeat_days": 7,
+  "removed_cooldown_days": 30,
+  "installed_note": "反馈标记 installed 的候选从建议安装里移除；下一次 Installed Context 更新后以 Canonical 为准（§八）。",
+  "show_internal_system_events": false,
+  "auto_install": false,
+  "language": "zh-CN",
+  "priority_levels": [
+    "P0 恢复关键缺失能力",
+    "P1 已装 Skill 安全问题 / 来源异常",
+    "P2 明确可更新的已装 Skill",
+    "P3 当前项目强匹配的新安装候选",
+    "P4 当前 none / weak 能力缺口",
+    "P5 明显 RISING 的观察项",
+    "P6 普通 watch"
+  ],
+  "install_repeat_days": 7,
+  "update_repeat_days": 7,
+  "restore_repeat_days": 3,
+  "max_install_per_capability_family": 2,
+  "max_watch_per_capability_family": 1,
+  "tombstone_retention_days": 30
+}

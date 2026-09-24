@@ -1,0 +1,943 @@
+{
+  "generated": "2026-09-22",
+  "revised": "2026-09-22 第四轮（冻结前）：全量重扫当前安装态（49 唯一 Skill）；已验证项补充 version_status 字段（historical_official_version / upstream_in_sync / outdated_version / local_modified / unresolved_variant / not_compared），纠正『11 项全部逐字节一致』的不精确表述；登记 7 个『(2)』重复目录（内容与原目录逐字节一致，来源继承原目录）。",
+  "method": "证据驱动，只认『作者来源证据』。official=明确官方仓库/官方 LICENSE 版权/官方发布记录/与官方仓库历史 commit 逐字节一致；vendor=明确证据表明 Skill 本身由对应产品厂商/团队提供（含文件内署名）；community=可确认第三方作者/社区来源；local=明确属于本机/用户项目自研；unknown=无法确认作者归属。『Skill 针对某产品』一律记入 target_platform，绝不作为作者来源证据。绝不按名称猜作者。",
+  "content_match_algorithm": "sha1(UTF-8 文本, Python universal newlines) 前 12 位十六进制（与 scan_skills.py 同口径）；上游版本经 GitHub commits API 按 path 逐 commit 取 raw 文件用同算法比对。",
+  "upstream_rule": "UPSTREAM_STATUS 只有 identified / unknown 两态：identified 仅表示『来源（作者归属）已确认』，不代表上游仍活跃。UPSTREAM_ACTIVITY 为独立字段（active/stale/deprecated/unknown/not_applicable）：active 仅在联网核验到上游近期仍有维护（recent push/release 或版本谱系更新）后填写，并附 activity_verified_at 与 activity_evidence；本地自建项记 not_applicable。",
+  "revision_note": "第二轮曾把 orca-cli/computer-use/computer-use-2/orchestration/orca-codex-commands/browseros-neo/aihot 判 unknown（依据是『仅有面向产品的证据』）。第三轮做了真实联网交叉验证：4 个 Orca skill 与 stablyai/orca 官方历史 commit 逐字节一致（升级 official）、browseros-neo 有官方管理清单证据（升级 official，medium）、aihot 文件内署名 Virxact（升级 vendor）、orca-codex-commands 经官方全量 tree 检索排除官方发布（维持 unknown）。另：leader / neat-freak 虽与 khazix-skills 逐字节一致，但未经用户确认，暂维持 unknown 并登记 pending_upgrade。",
+  "skills": {
+    "frontend-design": {
+      "origin_type": "official",
+      "upstream": "github.com/anthropics/skills",
+      "target_platform": "Claude / Agent Skills",
+      "evidence": "LICENSE.txt (Apache)；SKILL.md 自述为 Anthropic 官方设计 skill（'Anthropic's own Claude-interaction accent'）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 anthropics/skills 最近 push 2026-09-10",
+      "canonical": {
+        "canonical_id": "frontend-design",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "f763a551-c35b-44db-9b29-c6d6b4e8a0aa",
+          "registry_central_path": "~/.skills-manager/skills/frontend-design"
+        }
+      }
+    },
+    "theme-factory": {
+      "origin_type": "official",
+      "upstream": "github.com/anthropics/skills",
+      "target_platform": "Claude / Agent Skills",
+      "evidence": "LICENSE.txt line 190: 'Copyright 2026 Anthropic, PBC.'（官方版权行）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 anthropics/skills 最近 push 2026-09-10",
+      "canonical": {
+        "canonical_id": "theme-factory",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "ce21694b-4d08-44cf-ad22-56cdea7f27f5",
+          "registry_central_path": "~/.skills-manager/skills/theme-factory"
+        }
+      }
+    },
+    "skill-creator": {
+      "origin_type": "official",
+      "upstream": "github.com/anthropics/skills",
+      "target_platform": "Claude / Agent Skills",
+      "evidence": "LICENSE.txt line 190: 'Copyright 2026 Anthropic, PBC.'（官方版权行）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 anthropics/skills 最近 push 2026-09-10",
+      "canonical": {
+        "canonical_id": "skill-creator",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "ffb8b289-2b94-46ff-a2ea-c85b4b851eda",
+          "registry_central_path": "~/.skills-manager/skills/skill-creator"
+        }
+      }
+    },
+    "orca-cli": {
+      "origin_type": "official",
+      "upstream": "github.com/stablyai/orca",
+      "target_platform": "Orca",
+      "evidence": "内容与官方仓库逐字节一致：本地 SKILL.md（sha1 前12位 cddfd0a8c44e）== stablyai/orca commit f8b430f7（2026-07-20）中 skills/orca-cli/SKILL.md，同算法实测 → 由 Orca 官方仓库发布（第二轮『仅面向产品』的保守判定据此撤销）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 stablyai/orca 最近 push 2026-09-22",
+      "version_status": "historical_official_version",
+      "version_status_note": "与官方历史 commit f8b430f7 逐字节一致；官方仓库此后有更新（2026-08-31 后的 computer-use 基线），本地停留在历史版本。版本旧 ≠ 本地修改。",
+      "installation_note": "2026-09-22 约14:23 被外部工具从中央仓库移除（15:12 重扫确认）；本条目保留作为上游来源档案，当前不在安装集内。",
+      "canonical": {
+        "canonical_id": "orca-cli",
+        "installed_canonical": false,
+        "sync_state": "missing",
+        "note": "已知逻辑 Skill（来源档案在案）；本机 canonical 副本 2026-09-22 被 Skill Manager 移除（注册表行+部署目标级联删除，无 remove 审计记录），AGENT_AVAILABILITY 记 broken/missing"
+      }
+    },
+    "orchestration": {
+      "origin_type": "official",
+      "upstream": "github.com/stablyai/orca",
+      "target_platform": "Orca",
+      "evidence": "内容与官方仓库逐字节一致：本地 SKILL.md（8dd31dae1235）== stablyai/orca commit 1a9e819c（2026-07-22）中 skills/orchestration/SKILL.md → 由 Orca 官方仓库发布。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 stablyai/orca 最近 push 2026-09-22",
+      "version_status": "historical_official_version",
+      "version_status_note": "与官方历史 commit 1a9e819c 逐字节一致；官方仓库此后有更新。版本旧 ≠ 本地修改。",
+      "installation_note": "2026-09-22 约14:23 被外部工具从中央仓库移除（15:12 重扫确认）；本条目保留作为上游来源档案，当前不在安装集内。",
+      "canonical": {
+        "canonical_id": "orchestration",
+        "installed_canonical": false,
+        "sync_state": "missing",
+        "note": "已知逻辑 Skill（来源档案在案）；本机 canonical 副本 2026-09-22 被 Skill Manager 移除（注册表行+部署目标级联删除，无 remove 审计记录），AGENT_AVAILABILITY 记 broken/missing"
+      }
+    },
+    "computer-use": {
+      "origin_type": "official",
+      "upstream": "github.com/stablyai/orca",
+      "target_platform": "Orca",
+      "evidence": "内容与官方仓库逐字节一致：本地 SKILL.md（c79dedb3c7df）== stablyai/orca commit 1a9e819c（2026-07-22）中 skills/computer-use/SKILL.md → 由 Orca 官方仓库发布。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 stablyai/orca 最近 push 2026-09-22",
+      "version_status": "historical_official_version",
+      "version_status_note": "与官方历史 commit 1a9e819c 逐字节一致；官方仓库此后有更新。版本旧 ≠ 本地修改。",
+      "installation_note": "2026-09-22 约14:23 被外部工具从中央仓库移除（15:12 重扫确认）；本条目保留作为上游来源档案，当前不在安装集内。",
+      "canonical": {
+        "canonical_id": "computer-use",
+        "installed_canonical": false,
+        "sync_state": "missing",
+        "note": "已知逻辑 Skill（来源档案在案）；本机 canonical 副本 2026-09-22 被 Skill Manager 移除（注册表行+部署目标级联删除，无 remove 审计记录），AGENT_AVAILABILITY 记 broken/missing"
+      }
+    },
+    "computer-use-2": {
+      "origin_type": "official",
+      "upstream": "github.com/stablyai/orca",
+      "target_platform": "Orca",
+      "evidence": "本地目录名为改名副本，但内容未改动：SKILL.md（991f5dcdb2e5）与 stablyai/orca commit b44ef1e5（2026-08-31）中 skills/computer-use/SKILL.md 逐字节一致 → 内容源自官方仓库（非本地修改；目录改名不改变来源归属）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 stablyai/orca 最近 push 2026-09-22",
+      "version_status": "historical_official_version",
+      "version_status_note": "与官方 skills/computer-use@b44ef1e5（2026-08-31）逐字节一致，是所查官方版本中最新的一个；本地仅目录改名。",
+      "canonical": {
+        "canonical_id": "computer-use-2",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "096b604d-6692-45ea-99e5-1486628b5fbb",
+          "registry_central_path": "~/.skills-manager/skills/computer-use-2"
+        }
+      }
+    },
+    "browseros-neo": {
+      "origin_type": "official",
+      "upstream": "github.com/browseros-ai/BrowserOS",
+      "target_platform": "BrowserOS",
+      "evidence": "安装目录含 BrowserOS 官方管理清单 .browserclaw-managed.json（官方安装器管理标记）；内容与官方仓库 skill 高度同源，但与所查 3 个官方 commit 均非逐字节一致（官方持续演进）→ 判 official，confidence=medium。",
+      "confidence": "medium",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 browseros-ai/BrowserOS 最近 push 2026-09-22",
+      "version_status": "outdated_version",
+      "version_status_note": "与所查 3 个官方 commit 均非逐字节一致：官方持续演进、本地版本未跟进（由官方安装器管理）。与当前上游不一致 ≠ 本地修改。",
+      "canonical": {
+        "canonical_id": "browseros-neo",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": false,
+          "registry_id": null,
+          "registry_central_path": null
+        }
+      }
+    },
+    "aihot": {
+      "origin_type": "vendor",
+      "upstream": "Virxact / AI HOT（aihot.virxact.com）",
+      "target_platform": "AI HOT (aihot.virxact.com)",
+      "evidence": "SKILL.md frontmatter 直接署名：metadata.author=Virxact、version=1.2.0（文件内作者证据，非『调用其 API』推断）；官方渠道当前版本 v1.7.1 同署名，版本谱系连续 → 由 AI HOT 服务方 Virxact 发布。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "官方渠道实测当前版本 v1.7.1（高于本地 1.2.0，持续更新中）",
+      "version_status": "outdated_version",
+      "version_status_note": "本地 v1.2.0 落后官方渠道 v1.7.1（版本谱系连续、署名一致）。版本旧 ≠ 本地修改。",
+      "canonical": {
+        "canonical_id": "aihot",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "b49f6fb0-a74f-4ff6-82fe-d8dd374de0ca",
+          "registry_central_path": "~/.skills-manager/skills/aihot"
+        }
+      }
+    },
+    "hv-analysis": {
+      "origin_type": "community",
+      "upstream": "数字生命卡兹克 (Khazix) — github.com/KKKKhazix/khazix-skills",
+      "target_platform": "",
+      "evidence": "SKILL.md 明确标注方法由『数字生命卡兹克』提出；且内容与 github.com/KKKKhazix/khazix-skills 仓库中同名 skill 逐字节一致（本地 cb6227bf8ee4 == 上游实测）→ 作者归属与上游均确认，confidence 升为 high。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 KKKKhazix/khazix-skills 最近 push 2026-09-16",
+      "version_status": "upstream_in_sync",
+      "version_status_note": "与 KKKKhazix/khazix-skills 当前同名 skill 逐字节一致。",
+      "canonical": {
+        "canonical_id": "hv-analysis",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "16f95447-f6f2-4509-a156-b7bf2733bbad",
+          "registry_central_path": "~/.skills-manager/skills/hv-analysis"
+        }
+      }
+    },
+    "khazix-writer": {
+      "origin_type": "community",
+      "upstream": "数字生命卡兹克 (Khazix) — github.com/KKKKhazix/khazix-skills",
+      "target_platform": "",
+      "evidence": "SKILL.md 自述：『数字生命卡兹克（Khazix）的个人写作风格skill』——直接署名；且内容与 khazix-skills 仓库逐字节一致（本地 521606caa000 == 上游实测）。",
+      "confidence": "high",
+      "upstream_activity": "active",
+      "activity_verified_at": "2026-09-22",
+      "activity_evidence": "GitHub API 实测 KKKKhazix/khazix-skills 最近 push 2026-09-16",
+      "version_status": "upstream_in_sync",
+      "version_status_note": "与 KKKKhazix/khazix-skills 当前同名 skill 逐字节一致。",
+      "canonical": {
+        "canonical_id": "khazix-writer",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "f2b9337f-7e38-4db6-9a03-3b1ed6c61103",
+          "registry_central_path": "~/.skills-manager/skills/khazix-writer"
+        }
+      }
+    },
+    "manage-skills": {
+      "origin_type": "local",
+      "upstream": "本地 skills-manager CLI",
+      "target_platform": "skills-manager-cli（本机自建工具）",
+      "evidence": "SKILL.md 自述管理『the user's shared agent-skill library via skills-manager-cli』——面向本机自建工具的运维 skill（对 anthropics/skills.git 的引用是它可安装的来源之一，非自身出处）。",
+      "confidence": "high",
+      "canonical": {
+        "canonical_id": "manage-skills",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "1bef6aec-76a4-4e70-a9e3-e2cf469e2b61",
+          "registry_central_path": "~/.skills-manager/skills/manage-skills"
+        }
+      }
+    },
+    "skill-manager-governance": {
+      "origin_type": "local",
+      "upstream": "本地 Skill Manager / 60 Skill 仓库",
+      "target_platform": "本地 Skill Manager",
+      "evidence": "SKILL.md 自述『审查、修正、跨平台打包并正式导入本地 Skill Manager 技能库』——本机 Skill Manager 体系配套 skill。",
+      "confidence": "high",
+      "canonical": {
+        "canonical_id": "skill-manager-governance",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "2cb54f1d-1205-4448-9193-18ad230e4412",
+          "registry_central_path": "~/.skills-manager/skills/skill-manager-governance"
+        }
+      }
+    },
+    "place-journal-qa": {
+      "origin_type": "local",
+      "upstream": "place-journal 项目",
+      "target_platform": "place-journal（本机项目）",
+      "evidence": "SKILL.md 自述为个人地点打卡手账 place-journal 项目的开发/测试 skill。",
+      "confidence": "high",
+      "canonical": {
+        "canonical_id": "place-journal-qa",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": false,
+          "registry_id": null,
+          "registry_central_path": null
+        }
+      }
+    },
+    "orca-codex-commands": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Orca",
+      "evidence": "排除法证据：对官方仓库 stablyai/orca 全量 tree（29,540 个路径，无截断）检索，不存在 skills/orca-codex-commands → 可排除官方发布；又无其他作者归属证据 → 维持 unknown。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "orca-codex-commands",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": false,
+          "registry_id": null,
+          "registry_central_path": null
+        }
+      }
+    },
+    "leader": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无文件内署名；但内容与 github.com/KKKKhazix/khazix-skills 中同名 skill 逐字节一致（本地 018fe973901c == 上游实测）——作者归属证据已具备，待用户确认后可升级 community（pending_upgrade）。",
+      "confidence": "n/a",
+      "pending_upgrade": "community（khazix-skills 逐字节一致，待用户确认）",
+      "version_status": "upstream_in_sync",
+      "version_status_note": "与 KKKKhazix/khazix-skills 当前同名 skill 逐字节一致（018fe973901c）。",
+      "canonical": {
+        "canonical_id": "leader",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "91d95755-0235-4b17-a9e3-58128ae36a65",
+          "registry_central_path": "~/.skills-manager/skills/leader"
+        }
+      }
+    },
+    "neat-freak": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无文件内署名（v3.0.0，仅泛引 Agent Skills 标准）；但内容与 github.com/KKKKhazix/khazix-skills 中同名 skill 逐字节一致（本地 c4dbe94169ed == 上游实测）——待用户确认后可升级 community（pending_upgrade）。",
+      "confidence": "n/a",
+      "pending_upgrade": "community（khazix-skills 逐字节一致，待用户确认）",
+      "version_status": "upstream_in_sync",
+      "version_status_note": "与 KKKKhazix/khazix-skills 当前同名 skill 逐字节一致（c4dbe94169ed）。",
+      "canonical": {
+        "canonical_id": "neat-freak",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "357be922-3ec0-4cd4-adc6-b07459b04d56",
+          "registry_central_path": "~/.skills-manager/skills/neat-freak"
+        }
+      }
+    },
+    "deploy-to-vercel": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Vercel",
+      "evidence": "面向 Vercel 部署的 skill，无作者/发布方证据（类比：本地写的 Vercel 部署 skill ≠ Vercel 官方 skill）。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "deploy-to-vercel",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "23ad5e6e-14e2-4b69-99e3-9c25f1655783",
+          "registry_central_path": "~/.skills-manager/skills/deploy-to-vercel"
+        }
+      }
+    },
+    "vercel-blocked-deploy-triage": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Vercel",
+      "evidence": "面向 Vercel 部署故障排查的 skill，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "vercel-blocked-deploy-triage",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "2ada1d17-e821-4b67-bb40-6b833ff2982e",
+          "registry_central_path": "~/.skills-manager/skills/vercel-blocked-deploy-triage"
+        }
+      }
+    },
+    "netlify-deploy": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Netlify",
+      "evidence": "面向 Netlify 部署的 skill，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "netlify-deploy",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "36d5cbf1-f77b-4970-9b6b-53af42b80a33",
+          "registry_central_path": "~/.skills-manager/skills/netlify-deploy"
+        }
+      }
+    },
+    "github": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "GitHub",
+      "evidence": "封装 gh CLI 操作 GitHub，无作者归属证据（≠ GitHub 官方发布）。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "github",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "55b1f2d6-987e-4720-8ea7-ebeea7bf359d",
+          "registry_central_path": "~/.skills-manager/skills/github"
+        }
+      }
+    },
+    "github-readme-maintainer": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "GitHub",
+      "evidence": "面向 GitHub README 维护，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "github-readme-maintainer",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "f1e048df-4755-4642-b9e4-c7c2724ab47f",
+          "registry_central_path": "~/.skills-manager/skills/github-readme-maintainer"
+        }
+      }
+    },
+    "github-portfolio-sync": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "GitHub",
+      "evidence": "面向 GitHub 仓库数据采集，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "github-portfolio-sync",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "eaa9b89c-e526-480e-8ee8-aaec20965ace",
+          "registry_central_path": "~/.skills-manager/skills/github-portfolio-sync"
+        }
+      }
+    },
+    "make-repo-contribution": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "GitHub",
+      "evidence": "面向 GitHub 仓库贡献流程，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "make-repo-contribution",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "e75ec231-27fa-4074-8b0a-184243138ea0",
+          "registry_central_path": "~/.skills-manager/skills/make-repo-contribution"
+        }
+      }
+    },
+    "dida-task-manager": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Dida365（滴答清单）",
+      "evidence": "封装 Dida365 API 的操作 skill，无法证明由滴答清单官方编写。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "dida-task-manager",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "f7ce8226-bdbd-43fe-9198-67f554cb0028",
+          "registry_central_path": "~/.skills-manager/skills/dida-task-manager"
+        }
+      }
+    },
+    "obsidian": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "Obsidian",
+      "evidence": "面向 Obsidian vault 操作，无作者归属证据（≠ Obsidian 官方发布）。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "obsidian",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "6ba83375-4520-42bb-ad80-bed59d1a9e20",
+          "registry_central_path": "~/.skills-manager/skills/obsidian"
+        }
+      }
+    },
+    "travel-cn": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "去哪儿/携程/飞猪（Expedia 中国版）",
+      "evidence": "面向旅行服务数据查询，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "travel-cn",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "76fc7ea5-9d1b-4be6-a005-1b514d186bbd",
+          "registry_central_path": "~/.skills-manager/skills/travel-cn"
+        }
+      }
+    },
+    "bilibili-download-check": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "target_platform": "哔哩哔哩",
+      "evidence": "面向 B 站投稿目录比对，无作者归属证据。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "bilibili-download-check",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "27a7e1b3-d24e-4417-840f-437f1ca8ce25",
+          "registry_central_path": "~/.skills-manager/skills/bilibili-download-check"
+        }
+      }
+    },
+    "agent-central-mapping": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "agent-central-mapping",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "8368109d-436c-49f3-861f-2cc4b2540cdb",
+          "registry_central_path": "~/.skills-manager/skills/agent-central-mapping"
+        }
+      }
+    },
+    "ai-coding-homework-writeup": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "ai-coding-homework-writeup",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "3c833d12-397a-46dc-b618-7f2280c523df",
+          "registry_central_path": "~/.skills-manager/skills/ai-coding-homework-writeup"
+        }
+      }
+    },
+    "ai-quota-recovery-board": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "ai-quota-recovery-board",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "b5eb016d-ff22-4d7d-a577-5b437a31264a",
+          "registry_central_path": "~/.skills-manager/skills/ai-quota-recovery-board"
+        }
+      }
+    },
+    "batch-organize": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "batch-organize",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "2a468daf-3f49-4997-a14e-e0a3b5647a3e",
+          "registry_central_path": "~/.skills-manager/skills/batch-organize"
+        }
+      }
+    },
+    "browser-e2e-login-pitfalls": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "browser-e2e-login-pitfalls",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "7a8393b6-553c-499e-8c29-486a2a9bbb0a",
+          "registry_central_path": "~/.skills-manager/skills/browser-e2e-login-pitfalls"
+        }
+      }
+    },
+    "coding-workspace-organizer": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "coding-workspace-organizer",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "17801f91-0451-4366-9450-a54c42d9a25f",
+          "registry_central_path": "~/.skills-manager/skills/coding-workspace-organizer"
+        }
+      }
+    },
+    "course-md-organize": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。（NOTE: central 与 60 Skill 仓库副本内容不同，见 CONTENT_VARIANTS。）",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "course-md-organize",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "124de865-f8f2-45b6-b8d7-c76e19615e4a",
+          "registry_central_path": "~/.skills-manager/skills/course-md-organize"
+        }
+      }
+    },
+    "course-pdf-to-md": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "course-pdf-to-md",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "3aee0d95-b9d5-42d0-9df3-2565c61b3d76",
+          "registry_central_path": "~/.skills-manager/skills/course-pdf-to-md"
+        }
+      }
+    },
+    "find-skills": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无 anthropic/作者引用（仅提及 WorkBuddy/skills CLI 安装机制）。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "find-skills",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "5caa78c7-8a65-40ad-84ac-c86a8e5c05cf",
+          "registry_central_path": "~/.skills-manager/skills/find-skills"
+        }
+      }
+    },
+    "grill-me": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "grill-me",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "8062033d-0b31-4e90-bf9e-03d15e83b47b",
+          "registry_central_path": "~/.skills-manager/skills/grill-me"
+        }
+      }
+    },
+    "guizang-ppt-skill": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "guizang-ppt-skill",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "9d71312b-5f9a-4ec9-a137-39991a42c203",
+          "registry_central_path": "~/.skills-manager/skills/guizang-ppt-skill"
+        }
+      }
+    },
+    "local-service-change-acceptance": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "local-service-change-acceptance",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "8852763a-48ff-43f5-85e6-13db1a091b89",
+          "registry_central_path": "~/.skills-manager/skills/local-service-change-acceptance"
+        }
+      }
+    },
+    "mcp-one-command-setup": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "mcp-one-command-setup",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "d8d37749-9a8d-475f-8a33-00e8bf2a62b3",
+          "registry_central_path": "~/.skills-manager/skills/mcp-one-command-setup"
+        }
+      }
+    },
+    "ponytail": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "ponytail",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "8d4419c6-bb56-48bf-83c9-6193be5b679d",
+          "registry_central_path": "~/.skills-manager/skills/ponytail"
+        }
+      }
+    },
+    "storage-analyzer": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "storage-analyzer",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "9cf9bc58-fbe3-432b-ba97-299aca2bdbab",
+          "registry_central_path": "~/.skills-manager/skills/storage-analyzer"
+        }
+      }
+    },
+    "weekly-review-standard": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "weekly-review-standard",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "b93de7e8-c2a4-48f1-8474-84e10bbe7176",
+          "registry_central_path": "~/.skills-manager/skills/weekly-review-standard"
+        }
+      }
+    },
+    "win-reveal-and-gui-selftest": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "无 source 字段、无作者/上游引用。",
+      "confidence": "n/a",
+      "canonical": {
+        "canonical_id": "win-reveal-and-gui-selftest",
+        "installed_canonical": true,
+        "machine_id": "Mac-mini",
+        "sync_state": "canonical",
+        "registry": {
+          "registered": true,
+          "registry_id": "17d6651f-b9d7-44a0-a974-f44ca7a20997",
+          "registry_central_path": "~/.skills-manager/skills/win-reveal-and-gui-selftest"
+        }
+      }
+    },
+    "ai-coding-homework-writeup (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『ai-coding-homework-writeup』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "ai-coding-homework-writeup",
+      "canonical": {
+        "canonical_id": "ai-coding-homework-writeup",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『ai-coding-homework-writeup』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL ai-coding-homework-writeup；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "batch-organize (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『batch-organize』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "batch-organize",
+      "canonical": {
+        "canonical_id": "batch-organize",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『batch-organize』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL batch-organize；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "coding-workspace-organizer (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『coding-workspace-organizer』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "coding-workspace-organizer",
+      "canonical": {
+        "canonical_id": "coding-workspace-organizer",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『coding-workspace-organizer』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL coding-workspace-organizer；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "course-md-organize (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『course-md-organize』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "course-md-organize",
+      "canonical": {
+        "canonical_id": "course-md-organize",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『course-md-organize』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL course-md-organize；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "local-service-change-acceptance (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『local-service-change-acceptance』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "local-service-change-acceptance",
+      "canonical": {
+        "canonical_id": "local-service-change-acceptance",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『local-service-change-acceptance』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL local-service-change-acceptance；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "skill-manager-governance (2)": {
+      "origin_type": "local",
+      "upstream": "本地 Skill Manager / 60 Skill 仓库",
+      "target_platform": "本地 Skill Manager",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『skill-manager-governance』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "high",
+      "duplicate_of": "skill-manager-governance",
+      "canonical": {
+        "canonical_id": "skill-manager-governance",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『skill-manager-governance』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL skill-manager-governance；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    },
+    "win-reveal-and-gui-selftest (2)": {
+      "origin_type": "unknown",
+      "upstream": "unknown",
+      "evidence": "『(2)』重复目录（2026-09-22 15:12 重扫发现，外部工具产生）：SKILL.md 内容与『win-reveal-and-gui-selftest』原目录逐字节一致（sha1 前12位同值），来源继承原目录判定；目录名含空格括号，目录扫描型加载器会将其识别为独立新 Skill。",
+      "confidence": "n/a",
+      "duplicate_of": "win-reveal-and-gui-selftest",
+      "canonical": {
+        "canonical_id": "win-reveal-and-gui-selftest",
+        "installed_canonical": false,
+        "role": "duplicate_alias",
+        "sync_state": "conflict_copy",
+        "note": "与『win-reveal-and-gui-selftest』全目录逐字节一致（diff -rq 实测），并入 CANONICAL_SKILL win-reveal-and-gui-selftest；不计入唯一 Skill、来源统计与推荐算法"
+      }
+    }
+  }
+}

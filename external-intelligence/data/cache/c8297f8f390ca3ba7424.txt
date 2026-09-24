@@ -1,0 +1,39 @@
+---
+name: genpark-genoffice-document-agent-suite-skill
+description: Multi-format AI Office document engine and agentic synthesizer for Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown.
+version: 1.0.0
+license: Apache-2.0
+---
+
+# GenPark GenOffice Document Agent Suite Skill
+
+Multi-format AI Office document engine and agentic synthesizer for Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown.
+
+## Capabilities & Tool Surface
+- `create_document`: Synthesize formatted documents (headings, bullet points, callout blocks, tables) in Markdown or OpenXML-compliant JSON.
+- `analyze_spreadsheet`: Parse tabular data, compute column statistics (sum, mean, min, max, variance), and evaluate formulas (SUM, AVERAGE, MIN, MAX).
+- `generate_presentation`: Convert topical outlines into structured multi-slide presentation decks with layout blueprints, presenter notes, and visual prompts.
+- `diff_documents`: Perform semantic line and block diffing between document revisions.
+
+## Architecture
+
+```mermaid
+graph TD
+    A[Agent Intent / Raw Data] --> B[GenOffice Document Agent Suite]
+    B --> C[Word / Docx Synthesizer]
+    B --> D[Spreadsheet Formula Engine]
+    B --> E[Presentation Slide Deck Generator]
+    B --> F[Markdown & Diff Pipeline]
+    C --> G[Polished Office Deliverable]
+    D --> G
+    E --> G
+    F --> G
+    style A fill:#e1f5fe
+    style B fill:#fff9c4
+    style G fill:#c8e6c9
+```
+
+## Integration Guide
+- Run `mcp_server.py` for standard Model Context Protocol stdio transport.
+- Import `client.py` directly for programmatic, zero-dependency integration.
+- Refer to `example_usage.py` for end-to-end usage examples.

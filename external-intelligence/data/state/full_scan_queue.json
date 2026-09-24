@@ -1,0 +1,6365 @@
+{
+ "generated": "2026-09-24 11:02",
+ "summary": {
+  "eligible": 1021,
+  "complete": 1021,
+  "failed": 0,
+  "remaining": 0,
+  "gated_out": 55,
+  "gate_breakdown": {
+   "project_scope_section_not_required": 30,
+   "developer_tool_gate_unresolved": 24,
+   "competitor_block": 1
+  },
+  "queue_size_before_budget": 1021,
+  "unscannable": 30,
+  "budget": 1200,
+  "finished_at": "2026-09-24 11:02"
+ },
+ "queue": [
+  {
+   "rank": 1,
+   "key": "github/awesome-copilot/ai-prompt-engineering-safety-review",
+   "score": 79.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 2,
+   "key": "stablyai/orca/orca-emulator-android",
+   "score": 79.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 3,
+   "key": "microsoft/skills/frontend-design-review",
+   "score": 78.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 4,
+   "key": "github/awesome-copilot/webapp-testing",
+   "score": 72.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 5,
+   "key": "github/awesome-copilot/web-design-reviewer",
+   "score": 71.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 6,
+   "key": "anthropics/skills/webapp-testing",
+   "score": 71.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 7,
+   "key": "anthropics/skills/brand-guidelines",
+   "score": 68.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 8,
+   "key": "anthropics/skills/claude-api",
+   "score": 67,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 9,
+   "key": "github/awesome-copilot/ai-team-orchestration",
+   "score": 66.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 10,
+   "key": "wshobson/agents/e2e-testing-patterns",
+   "score": 66.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 11,
+   "key": "github/awesome-copilot/qdrant-deployment-options",
+   "score": 66.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 12,
+   "key": "wshobson/agents/responsive-design",
+   "score": 65.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 13,
+   "key": "wshobson/agents/tailwind-design-system",
+   "score": 64.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 14,
+   "key": "github/awesome-copilot/dependabot",
+   "score": 64.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 15,
+   "key": "github/awesome-copilot/scoutqa-test",
+   "score": 64.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 16,
+   "key": "github/awesome-copilot/python-pypi-package-builder",
+   "score": 64,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 17,
+   "key": "anthropics/skills/frontend-design",
+   "score": 63.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 18,
+   "key": "anthropics/skills/theme-factory",
+   "score": 63.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 19,
+   "key": "github/awesome-copilot/penpot-uiux-design",
+   "score": 63.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 20,
+   "key": "github/awesome-copilot/secret-scanning",
+   "score": 63.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 21,
+   "key": "github/awesome-copilot/security-review",
+   "score": 63.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 22,
+   "key": "github/awesome-copilot/gtm-ai-gtm",
+   "score": 62.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 23,
+   "key": "github/awesome-copilot/gdpr-compliant",
+   "score": 61.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 24,
+   "key": "github/awesome-copilot/linkedin-post-formatter",
+   "score": 61.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 25,
+   "key": "github/awesome-copilot/premium-frontend-ui",
+   "score": 61.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 26,
+   "key": "wshobson/agents/react-native-design",
+   "score": 61.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 27,
+   "key": "wshobson/agents/team-composition-patterns",
+   "score": 60.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 28,
+   "key": "vercel-labs/agent-skills/web-design-guidelines",
+   "score": 60.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 29,
+   "key": "microsoft/skills/frontend-ui-dark-ts",
+   "score": 60.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 30,
+   "key": "vercel-labs/agent-skills/react-native-skills",
+   "score": 58.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 31,
+   "key": "github/awesome-copilot/publish-to-pages",
+   "score": 58.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 32,
+   "key": "github/awesome-copilot/phoenix-tracing",
+   "score": 57.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 33,
+   "key": "github/awesome-copilot/github-actions-hardening",
+   "score": 56.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 34,
+   "key": "wshobson/agents/parallel-feature-development",
+   "score": 56.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 35,
+   "key": "wshobson/agents/prompt-engineering-patterns",
+   "score": 56.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 36,
+   "key": "wshobson/agents/task-coordination-strategies",
+   "score": 56.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 37,
+   "key": "wshobson/agents/team-communication-protocols",
+   "score": 56.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 38,
+   "key": "github/awesome-copilot/freecad-scripts",
+   "score": 55.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 39,
+   "key": "wshobson/agents/deployment-pipeline-design",
+   "score": 55.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 40,
+   "key": "wshobson/agents/design-system-patterns",
+   "score": 55.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 41,
+   "key": "wshobson/agents/visual-design-foundations",
+   "score": 55.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 42,
+   "key": "wshobson/agents/web-component-design",
+   "score": 55.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 43,
+   "key": "github/awesome-copilot/agent-governance",
+   "score": 54.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 44,
+   "key": "github/awesome-copilot/arize-prompt-optimization",
+   "score": 54.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 45,
+   "key": "microsoft/skills/github-issue-creator",
+   "score": 54.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 46,
+   "key": "browseros-ai/browseros/ai-sdk",
+   "score": 54.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 47,
+   "key": "google/skills/gemini-live-api",
+   "score": 54.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 48,
+   "key": "google/skills/secops-investigate",
+   "score": 54,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 49,
+   "key": "google/skills/secops-triage",
+   "score": 54,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 50,
+   "key": "microsoft/skills/wiki-qa",
+   "score": 54,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 51,
+   "key": "github/awesome-copilot/create-github-action-workflow-specification",
+   "score": 53.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 52,
+   "key": "github/awesome-copilot/create-github-issue-feature-from-specification",
+   "score": 53.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 53,
+   "key": "github/awesome-copilot/create-github-issues-feature-from-implementation-plan",
+   "score": 53.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 54,
+   "key": "github/awesome-copilot/create-github-issues-for-unmet-specification-requirements",
+   "score": 53.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 55,
+   "key": "github/awesome-copilot/multi-stage-dockerfile",
+   "score": 53.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 56,
+   "key": "voidmatcha/e2e-skills/e2e-reviewer",
+   "score": 53.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 57,
+   "key": "anthropics/skills/canvas-design",
+   "score": 53,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 58,
+   "key": "stablyai/orca/orca-emulator",
+   "score": 53,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 59,
+   "key": "vercel-labs/agent-skills/react-best-practices",
+   "score": 53.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 60,
+   "key": "vercel-labs/agent-skills/react-view-transitions",
+   "score": 53.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 61,
+   "key": "google/skills/data-manager-api-event-ingestion",
+   "score": 52.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 62,
+   "key": "wshobson/agents/brand-landingpage",
+   "score": 52.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 63,
+   "key": "wshobson/agents/github-actions-templates",
+   "score": 52.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 64,
+   "key": "stablyai/orca/computer-use",
+   "score": 52.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 65,
+   "key": "wshobson/agents/python-packaging",
+   "score": 52.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 66,
+   "key": "google/skills/google-mobile-ads-banner",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 67,
+   "key": "google/skills/google-mobile-ads-get-started",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 68,
+   "key": "google/skills/google-mobile-ads-interstitial",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 69,
+   "key": "google/skills/google-mobile-ads-rewarded",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 70,
+   "key": "google/skills/google-mobile-ads-validate",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 71,
+   "key": "google/skills/ima-dai-sdk",
+   "score": 51.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 72,
+   "key": "github/awesome-copilot/transloadit-media-processing",
+   "score": 50.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 73,
+   "key": "anthropics/skills/algorithmic-art",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 74,
+   "key": "anthropics/skills/discernment-nudge",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 75,
+   "key": "anthropics/skills/internal-comms",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 76,
+   "key": "anthropics/skills/slack-gif-creator",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 77,
+   "key": "anthropics/skills/template",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 78,
+   "key": "browseros-ai/browseros/writing-plans",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 79,
+   "key": "github/awesome-copilot/breakdown-test",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 80,
+   "key": "github/awesome-copilot/javascript-typescript-jest",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 81,
+   "key": "github/awesome-copilot/pester-migration",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 82,
+   "key": "github/awesome-copilot/pester-should-migration",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 83,
+   "key": "github/awesome-copilot/php-mcp-server-generator",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 84,
+   "key": "github/awesome-copilot/playwright-automation-fill-in-form",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 85,
+   "key": "github/awesome-copilot/playwright-explore-website",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 86,
+   "key": "github/awesome-copilot/playwright-generate-test",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 87,
+   "key": "github/awesome-copilot/pytest-coverage",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 88,
+   "key": "github/awesome-copilot/react19-test-patterns",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 89,
+   "key": "github/awesome-copilot/rust-mcp-server-generator",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 90,
+   "key": "github/awesome-copilot/unit-test-vue-pinia",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 91,
+   "key": "github/awesome-copilot/winui3-migration-guide",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 92,
+   "key": "google/skills/data-manager-api-audience-ingestion",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 93,
+   "key": "google/skills/data-manager-api-setup",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 94,
+   "key": "google/skills/developing-genkit-js",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 95,
+   "key": "google/skills/google-ads-api-account-diagnostics",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 96,
+   "key": "google/skills/google-analytics-admin-api-basics",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 97,
+   "key": "google/skills/google-analytics-data-api-basics",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 98,
+   "key": "google/skills/iam-helper-for-policy-management",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 99,
+   "key": "google/skills/ima-sdk-client-side",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 100,
+   "key": "google/skills/secops-hunt",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 101,
+   "key": "google/skills/spanner-basics",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 102,
+   "key": "huggingface/skills/hf-mem",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 103,
+   "key": "huggingface/skills/huggingface-gradio",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 104,
+   "key": "huggingface/skills/huggingface-trackio",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 105,
+   "key": "huggingface/skills/trl-training",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 106,
+   "key": "microsoft/skills/continual-learning",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 107,
+   "key": "microsoft/skills/entra-agent-id",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 108,
+   "key": "microsoft/skills/fastapi-router-py",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 109,
+   "key": "microsoft/skills/install-atk",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 110,
+   "key": "microsoft/skills/pydantic-models-py",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 111,
+   "key": "microsoft/skills/react-flow-node-ts",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 112,
+   "key": "microsoft/skills/wiki-architect",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 113,
+   "key": "microsoft/skills/wiki-changelog",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 114,
+   "key": "microsoft/skills/wiki-llms-txt",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 115,
+   "key": "microsoft/skills/wiki-onboarding",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 116,
+   "key": "microsoft/skills/wiki-page-writer",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 117,
+   "key": "microsoft/skills/wiki-researcher",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 118,
+   "key": "microsoft/skills/wiki-vitepress",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 119,
+   "key": "microsoft/skills/zustand-store-ts",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 120,
+   "key": "stablyai/orca/linear-tickets",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 121,
+   "key": "stablyai/orca/orca-linear",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 122,
+   "key": "stablyai/orca/orca-per-workspace-env",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 123,
+   "key": "vercel-labs/agent-skills/composition-patterns",
+   "score": 50,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 124,
+   "key": "microsoft/skills/azure-microsoft-playwright-testing-ts",
+   "score": 49.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 125,
+   "key": "github/awesome-copilot/setup-my-iq",
+   "score": 49.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 126,
+   "key": "wshobson/agents/python-error-handling",
+   "score": 49.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 127,
+   "key": "microsoft/skills/azure-compliance",
+   "score": 49.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 128,
+   "key": "huggingface/skills/transformers-js",
+   "score": 49.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 129,
+   "key": "github/awesome-copilot/breakdown-epic-arch",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 130,
+   "key": "github/awesome-copilot/breakdown-epic-pm",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 131,
+   "key": "github/awesome-copilot/breakdown-feature-implementation",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 132,
+   "key": "github/awesome-copilot/breakdown-feature-prd",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 133,
+   "key": "github/awesome-copilot/create-specification",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 134,
+   "key": "github/awesome-copilot/gen-specs-as-issues",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 135,
+   "key": "github/awesome-copilot/prd",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 136,
+   "key": "github/awesome-copilot/update-implementation-plan",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 137,
+   "key": "github/awesome-copilot/update-specification",
+   "score": 49.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 138,
+   "key": "obra/superpowers/executing-plans",
+   "score": 48.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 139,
+   "key": "obra/superpowers/subagent-driven-development",
+   "score": 48.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 140,
+   "key": "google/skills/google-cloud-storage-bucket-architect",
+   "score": 48.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 141,
+   "key": "wshobson/agents/kpi-dashboard-design",
+   "score": 48.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 142,
+   "key": "bacoco/shipguard/sg-ship",
+   "score": 48.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 143,
+   "key": "anthropics/skills/doc-coauthoring",
+   "score": 48.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 144,
+   "key": "stablyai/orca/orca-cli",
+   "score": 48,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 145,
+   "key": "github/awesome-copilot/github-actions-efficiency",
+   "score": 47.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 146,
+   "key": "github/awesome-copilot/github-actions-runtime-upgrade-conventions",
+   "score": 47.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 147,
+   "key": "wshobson/agents/pptx-reference-deck-analysis",
+   "score": 47.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 148,
+   "key": "microsoft/skills/azure-ai-openai-dotnet",
+   "score": 47.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 149,
+   "key": "github/awesome-copilot/agentic-eval",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 150,
+   "key": "github/awesome-copilot/audit-integrity",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 151,
+   "key": "github/awesome-copilot/autoresearch",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 152,
+   "key": "github/awesome-copilot/breakdown-plan",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 153,
+   "key": "github/awesome-copilot/cloud-design-patterns",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 154,
+   "key": "github/awesome-copilot/devops-rollout-plan",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 155,
+   "key": "github/awesome-copilot/eval-driven-dev",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 156,
+   "key": "github/awesome-copilot/flowstudio-power-automate-build",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 157,
+   "key": "github/awesome-copilot/generate-custom-instructions-from-codebase",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 158,
+   "key": "github/awesome-copilot/gtm-positioning-strategy",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 159,
+   "key": "github/awesome-copilot/gtm-product-led-growth",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 160,
+   "key": "github/awesome-copilot/impediment-prioritization",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 161,
+   "key": "github/awesome-copilot/kotlin-mcp-server-generator",
+   "score": 47.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 162,
+   "key": "github/awesome-copilot/macos-golden-gate-design",
+   "score": 47.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 163,
+   "key": "github/awesome-copilot/mcp-deploy-manage-agents",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 164,
+   "key": "github/awesome-copilot/mcp-release-qa",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 165,
+   "key": "github/awesome-copilot/qdrant-model-migration",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 166,
+   "key": "github/awesome-copilot/react-audit-grep-patterns",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 167,
+   "key": "github/awesome-copilot/react18-enzyme-to-rtl",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 168,
+   "key": "github/awesome-copilot/react18-legacy-context",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 169,
+   "key": "github/awesome-copilot/react18-string-refs",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 170,
+   "key": "github/awesome-copilot/react19-source-patterns",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 171,
+   "key": "github/awesome-copilot/readme-blueprint-generator",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 172,
+   "key": "github/awesome-copilot/resx-source-generator-migration",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 173,
+   "key": "github/awesome-copilot/server-side-conversion-tracking",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 174,
+   "key": "github/awesome-copilot/swift-mcp-server-generator",
+   "score": 47.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 175,
+   "key": "github/awesome-copilot/threat-model-analyst",
+   "score": 47.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 176,
+   "key": "github/awesome-copilot/ui-screenshots",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 177,
+   "key": "github/awesome-copilot/verify-agent-action",
+   "score": 47,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 178,
+   "key": "github/awesome-copilot/indexing-performance-optimization",
+   "score": 46.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 179,
+   "key": "github/awesome-copilot/data-breach-blast-radius",
+   "score": 46.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 180,
+   "key": "wshobson/agents/defi-protocol-templates",
+   "score": 46.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 181,
+   "key": "wshobson/agents/risk-metrics-calculation",
+   "score": 46.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 182,
+   "key": "wshobson/agents/startup-financial-modeling",
+   "score": 46.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 183,
+   "key": "browseros-ai/browseros/browserclaw",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 184,
+   "key": "github/awesome-copilot/game-engine",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 185,
+   "key": "github/awesome-copilot/generate-image",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 186,
+   "key": "github/awesome-copilot/go-mcp-server-generator",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 187,
+   "key": "github/awesome-copilot/gsap-framer-scroll-animation",
+   "score": 46.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 188,
+   "key": "github/awesome-copilot/mvvm-toolkit",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 189,
+   "key": "github/awesome-copilot/next-intl-add-language",
+   "score": 46.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 190,
+   "key": "github/awesome-copilot/power-platform-mcp-connector-suite",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 191,
+   "key": "github/awesome-copilot/python-mcp-server-generator",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 192,
+   "key": "github/awesome-copilot/ruby-mcp-server-generator",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 193,
+   "key": "github/awesome-copilot/tm7-threat-model",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 194,
+   "key": "github/awesome-copilot/typescript-mcp-server-generator",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 195,
+   "key": "github/awesome-copilot/winmd-api-search",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 196,
+   "key": "google/skills/detection-engineering-coverage-evaluation",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 197,
+   "key": "google/skills/secops-cases",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 198,
+   "key": "google/skills/secops-detection-engineering",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 199,
+   "key": "microsoft/skills/airunway-aks-setup",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 200,
+   "key": "microsoft/skills/finetuning",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 201,
+   "key": "microsoft/skills/microsoft-foundry",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 202,
+   "key": "microsoft/skills/wiki-agents-md",
+   "score": 46,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 203,
+   "key": "wshobson/agents/gdpr-data-handling",
+   "score": 45.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 204,
+   "key": "github/awesome-copilot/msstore-cli",
+   "score": 45.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 205,
+   "key": "github/awesome-copilot/sandbox-npm-install",
+   "score": 45.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 206,
+   "key": "anthropics/skills/docx",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 207,
+   "key": "anthropics/skills/mcp-builder",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 208,
+   "key": "anthropics/skills/xlsx",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 209,
+   "key": "google/skills/google-ads-api-mcp-setup",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 210,
+   "key": "microsoft/skills/applicationinsights-web-ts",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 211,
+   "key": "vercel-labs/agent-skills/vercel-optimize",
+   "score": 45.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 212,
+   "key": "vercel-labs/skills/find-skills",
+   "score": 45,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 213,
+   "key": "google/skills/cloud-monitoring-chart-generation",
+   "score": 44.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 214,
+   "key": "google/skills/gke-app-onboarding",
+   "score": 44.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 215,
+   "key": "microsoft/skills/azure-app-onboard",
+   "score": 44.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 216,
+   "key": "obra/superpowers/test-driven-development",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 217,
+   "key": "wshobson/agents/bats-testing-patterns",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 218,
+   "key": "wshobson/agents/dbt-transformation-patterns",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 219,
+   "key": "wshobson/agents/screen-reader-testing",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 220,
+   "key": "wshobson/agents/security-requirement-extraction",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 221,
+   "key": "wshobson/agents/solidity-security",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 222,
+   "key": "wshobson/agents/stride-analysis-patterns",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 223,
+   "key": "wshobson/agents/temporal-python-testing",
+   "score": 44,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 224,
+   "key": "github/awesome-copilot/doc-and-modernize",
+   "score": 43.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 225,
+   "key": "github/awesome-copilot/pdftk-server",
+   "score": 43.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 226,
+   "key": "github/awesome-copilot/codeql",
+   "score": 43.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 227,
+   "key": "github/awesome-copilot/issue-fields-migration",
+   "score": 43.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 228,
+   "key": "obra/superpowers/using-git-worktrees",
+   "score": 43.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 229,
+   "key": "github/awesome-copilot/acreadiness-assess",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 230,
+   "key": "github/awesome-copilot/acreadiness-generate-instructions",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 231,
+   "key": "github/awesome-copilot/acreadiness-policy",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 232,
+   "key": "github/awesome-copilot/ad-campaign-analyzer",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 233,
+   "key": "github/awesome-copilot/agent-architecture",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 234,
+   "key": "github/awesome-copilot/agent-owasp-compliance",
+   "score": 43.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 235,
+   "key": "github/awesome-copilot/agent-supply-chain",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 236,
+   "key": "github/awesome-copilot/agentic-workflows",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 237,
+   "key": "github/awesome-copilot/ai-ready",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 238,
+   "key": "github/awesome-copilot/arch-linux-triage",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 239,
+   "key": "github/awesome-copilot/architecture-blueprint-generator",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 240,
+   "key": "github/awesome-copilot/arize-link",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 241,
+   "key": "github/awesome-copilot/bench-read",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 242,
+   "key": "github/awesome-copilot/boost-prompt",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 243,
+   "key": "github/awesome-copilot/brag-sheet",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 244,
+   "key": "github/awesome-copilot/bug-reproduction-brief",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 245,
+   "key": "github/awesome-copilot/centos-linux-triage",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 246,
+   "key": "github/awesome-copilot/chrome-devtools",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 247,
+   "key": "github/awesome-copilot/cli-mastery",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 248,
+   "key": "github/awesome-copilot/codebase-memory-mcp",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 249,
+   "key": "github/awesome-copilot/comment-code-generate-a-tutorial",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 250,
+   "key": "github/awesome-copilot/commit-message-storyteller",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 251,
+   "key": "github/awesome-copilot/content-management-systems",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 252,
+   "key": "github/awesome-copilot/context-map",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 253,
+   "key": "github/awesome-copilot/conventional-commit",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 254,
+   "key": "github/awesome-copilot/copilot-cli-quickstart",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 255,
+   "key": "github/awesome-copilot/copilot-instructions-blueprint-generator",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 256,
+   "key": "github/awesome-copilot/copilot-sdk",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 257,
+   "key": "github/awesome-copilot/copilot-usage-metrics",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 258,
+   "key": "github/awesome-copilot/create-agentsmd",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 259,
+   "key": "github/awesome-copilot/create-architectural-decision-record",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 260,
+   "key": "github/awesome-copilot/create-canvas-extension",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 261,
+   "key": "github/awesome-copilot/create-implementation-plan",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 262,
+   "key": "github/awesome-copilot/create-llms",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 263,
+   "key": "github/awesome-copilot/create-readme",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 264,
+   "key": "github/awesome-copilot/dataverse-python-advanced-patterns",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 265,
+   "key": "github/awesome-copilot/dataverse-python-production-code",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 266,
+   "key": "github/awesome-copilot/dataverse-python-quickstart",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 267,
+   "key": "github/awesome-copilot/dataverse-python-usecase-builder",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 268,
+   "key": "github/awesome-copilot/debian-linux-triage",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 269,
+   "key": "github/awesome-copilot/debugging",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 270,
+   "key": "github/awesome-copilot/desk-journal",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 271,
+   "key": "github/awesome-copilot/desk-open",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 272,
+   "key": "github/awesome-copilot/diagnose",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 273,
+   "key": "github/awesome-copilot/diagnosis",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 274,
+   "key": "github/awesome-copilot/documentation-writer",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 275,
+   "key": "github/awesome-copilot/doublecheck",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 276,
+   "key": "github/awesome-copilot/editorconfig",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 277,
+   "key": "github/awesome-copilot/ef-core",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 278,
+   "key": "github/awesome-copilot/em-dash",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 279,
+   "key": "github/awesome-copilot/email-drafter",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 280,
+   "key": "github/awesome-copilot/exam-ready",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 281,
+   "key": "github/awesome-copilot/eyeball",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 282,
+   "key": "github/awesome-copilot/fedora-linux-triage",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 283,
+   "key": "github/awesome-copilot/finalize-agent-prompt",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 284,
+   "key": "github/awesome-copilot/finnish-humanizer",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 285,
+   "key": "github/awesome-copilot/first-ask",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 286,
+   "key": "github/awesome-copilot/flowstudio-power-automate-debug",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 287,
+   "key": "github/awesome-copilot/flowstudio-power-automate-governance",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 288,
+   "key": "github/awesome-copilot/flowstudio-power-automate-monitoring",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 289,
+   "key": "github/awesome-copilot/from-the-other-side-anitta",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 290,
+   "key": "github/awesome-copilot/from-the-other-side-quinn",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 291,
+   "key": "github/awesome-copilot/from-the-other-side-vega",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 292,
+   "key": "github/awesome-copilot/from-the-other-side-wiggins",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 293,
+   "key": "github/awesome-copilot/git-flow-branch-creator",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 294,
+   "key": "github/awesome-copilot/github-codespaces-efficiency",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 295,
+   "key": "github/awesome-copilot/gitmoji",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 296,
+   "key": "github/awesome-copilot/gtm-0-to-1-launch",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 297,
+   "key": "github/awesome-copilot/gtm-developer-ecosystem",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 298,
+   "key": "github/awesome-copilot/gtm-enterprise-account-planning",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 299,
+   "key": "github/awesome-copilot/gtm-enterprise-onboarding",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 300,
+   "key": "github/awesome-copilot/gtm-operating-cadence",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 301,
+   "key": "github/awesome-copilot/gtm-partnership-architecture",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 302,
+   "key": "github/awesome-copilot/gtm-technical-product-pricing",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 303,
+   "key": "github/awesome-copilot/horizontal-scaling",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 304,
+   "key": "github/awesome-copilot/image-annotations",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 305,
+   "key": "github/awesome-copilot/incident-postmortem",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 306,
+   "key": "github/awesome-copilot/legacy-circuit-mockups",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 307,
+   "key": "github/awesome-copilot/lsp-setup",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 308,
+   "key": "github/awesome-copilot/markdown-to-html",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 309,
+   "key": "github/awesome-copilot/markstream-install",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 310,
+   "key": "github/awesome-copilot/mcp-cli",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 311,
+   "key": "github/awesome-copilot/mcp-copilot-studio-server-generator",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 312,
+   "key": "github/awesome-copilot/mcp-create-adaptive-cards",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 313,
+   "key": "github/awesome-copilot/mcp-implementation-security-review",
+   "score": 43.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 314,
+   "key": "github/awesome-copilot/meeting-minutes",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 315,
+   "key": "github/awesome-copilot/memory-merger",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 316,
+   "key": "github/awesome-copilot/memory-usage-optimization",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 317,
+   "key": "github/awesome-copilot/mentoring-juniors",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 318,
+   "key": "github/awesome-copilot/minecraft-plugin-development",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 319,
+   "key": "github/awesome-copilot/minimize-latency",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 320,
+   "key": "github/awesome-copilot/mkdocs-translations",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 321,
+   "key": "github/awesome-copilot/napkin",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 322,
+   "key": "github/awesome-copilot/noob-mode",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 323,
+   "key": "github/awesome-copilot/oo-component-documentation",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 324,
+   "key": "github/awesome-copilot/performance-review-writer",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 325,
+   "key": "github/awesome-copilot/phoenix-evals",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 326,
+   "key": "github/awesome-copilot/power-apps-code-app-scaffold",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 327,
+   "key": "github/awesome-copilot/power-platform-architect",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 328,
+   "key": "github/awesome-copilot/prompt-optimizer",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 329,
+   "key": "github/awesome-copilot/protobuf-grpc-api-review",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 330,
+   "key": "github/awesome-copilot/qdrant-monitoring",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 331,
+   "key": "github/awesome-copilot/qdrant-performance-optimization",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 332,
+   "key": "github/awesome-copilot/qdrant-scaling",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 333,
+   "key": "github/awesome-copilot/qdrant-search-quality",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 334,
+   "key": "github/awesome-copilot/qdrant-version-upgrade",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 335,
+   "key": "github/awesome-copilot/react-container-presentation-component",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 336,
+   "key": "github/awesome-copilot/react18-dep-compatibility",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 337,
+   "key": "github/awesome-copilot/react19-concurrent-patterns",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 338,
+   "key": "github/awesome-copilot/refactor-method-complexity-reduce",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 339,
+   "key": "github/awesome-copilot/refactor-plan",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 340,
+   "key": "github/awesome-copilot/remember",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 341,
+   "key": "github/awesome-copilot/remember-interactive-programming",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 342,
+   "key": "github/awesome-copilot/repo-story-time",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 343,
+   "key": "github/awesome-copilot/review-and-refactor",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 344,
+   "key": "github/awesome-copilot/rhino3d-scripts",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 345,
+   "key": "github/awesome-copilot/roundup",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 346,
+   "key": "github/awesome-copilot/roundup-setup",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 347,
+   "key": "github/awesome-copilot/ruff-recursive-fix",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 348,
+   "key": "github/awesome-copilot/scaling-data-volume",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 349,
+   "key": "github/awesome-copilot/scaling-qps",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 350,
+   "key": "github/awesome-copilot/scaling-query-volume",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 351,
+   "key": "github/awesome-copilot/screen-recording",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 352,
+   "key": "github/awesome-copilot/search-speed-optimization",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 353,
+   "key": "github/awesome-copilot/search-strategies",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 354,
+   "key": "github/awesome-copilot/setup",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 355,
+   "key": "github/awesome-copilot/shuffle-json-data",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 356,
+   "key": "github/awesome-copilot/signal-write",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 357,
+   "key": "github/awesome-copilot/sliding-time-window",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 358,
+   "key": "github/awesome-copilot/steno-mode",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 359,
+   "key": "github/awesome-copilot/structured-autonomy-implement",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 360,
+   "key": "github/awesome-copilot/structured-autonomy-plan",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 361,
+   "key": "github/awesome-copilot/technical-job-search",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 362,
+   "key": "github/awesome-copilot/tenant-scaling",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 363,
+   "key": "github/awesome-copilot/tiny-stepping",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 364,
+   "key": "github/awesome-copilot/tugboat",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 365,
+   "key": "github/awesome-copilot/typespec-api-operations",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 366,
+   "key": "github/awesome-copilot/typespec-create-agent",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 367,
+   "key": "github/awesome-copilot/typespec-create-api-plugin",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 368,
+   "key": "github/awesome-copilot/update-llms",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 369,
+   "key": "github/awesome-copilot/update-markdown-file-index",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 370,
+   "key": "github/awesome-copilot/vardoger-analyze",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 371,
+   "key": "github/awesome-copilot/vertical-scaling",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 372,
+   "key": "github/awesome-copilot/vscode-ext-commands",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 373,
+   "key": "github/awesome-copilot/vscode-ext-localization",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 374,
+   "key": "github/awesome-copilot/what-context-needed",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 375,
+   "key": "github/awesome-copilot/workiq-copilot",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 376,
+   "key": "github/awesome-copilot/workshop-create",
+   "score": 43,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 377,
+   "key": "google/skills/developer-device-platform-basics",
+   "score": 43.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 378,
+   "key": "google/skills/google-mobile-ads-android-migrate-to-next-gen",
+   "score": 43.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 379,
+   "key": "google/skills/google-cloud-recipe-foundation-builder",
+   "score": 42.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 380,
+   "key": "github/awesome-copilot/sql-server-table-reconciliation",
+   "score": 42.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 381,
+   "key": "anthropics/skills/academy-guide",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 382,
+   "key": "anthropics/skills/pdf",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 383,
+   "key": "anthropics/skills/pptx",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 384,
+   "key": "browseros-ai/browseros/ask-internal",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 385,
+   "key": "browseros-ai/browseros/write-docs",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 386,
+   "key": "browseros-ai/browseros/write-internal-docs",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 387,
+   "key": "github/awesome-copilot/code-tour",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 388,
+   "key": "github/awesome-copilot/mcp-security-audit",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 389,
+   "key": "github/awesome-copilot/test-gap-audit",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 390,
+   "key": "google/skills/developing-genkit-python",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 391,
+   "key": "google/skills/google-ads-api-quickstart",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 392,
+   "key": "huggingface/skills/hf-mcp",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 393,
+   "key": "huggingface/skills/huggingface-best",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 394,
+   "key": "huggingface/skills/huggingface-community-evals",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 395,
+   "key": "huggingface/skills/huggingface-datasets",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 396,
+   "key": "huggingface/skills/huggingface-llm-trainer",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 397,
+   "key": "huggingface/skills/huggingface-local-models",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 398,
+   "key": "huggingface/skills/huggingface-paper-publisher",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 399,
+   "key": "huggingface/skills/huggingface-papers",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 400,
+   "key": "huggingface/skills/huggingface-tool-builder",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 401,
+   "key": "huggingface/skills/huggingface-vision-trainer",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 402,
+   "key": "huggingface/skills/train-sentence-transformers",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 403,
+   "key": "microsoft/skills/deploy",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 404,
+   "key": "microsoft/skills/m365-agents-py",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 405,
+   "key": "microsoft/skills/m365-agents-ts",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 406,
+   "key": "microsoft/skills/prepare",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 407,
+   "key": "microsoft/skills/scaffold",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 408,
+   "key": "vercel-labs/agent-skills/writing-guidelines",
+   "score": 42,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 409,
+   "key": "wshobson/agents/react-native-architecture",
+   "score": 41.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 410,
+   "key": "google/skills/google-cloud-waf-cost-optimization",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 411,
+   "key": "google/skills/google-cloud-waf-sustainability",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 412,
+   "key": "microsoft/skills/azure-app-onboard-prereq",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 413,
+   "key": "microsoft/skills/azure-deploy",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 414,
+   "key": "microsoft/skills/azure-prepare",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 415,
+   "key": "microsoft/skills/deploy-model",
+   "score": 41.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 416,
+   "key": "github/awesome-copilot/anti-ui-slop",
+   "score": 41.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 417,
+   "key": "github/awesome-copilot/geofeed-tuner",
+   "score": 41.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 418,
+   "key": "anthropics/skills/skill-creator",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 419,
+   "key": "browseros-ai/browseros/browseros-neo",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 420,
+   "key": "wshobson/agents/angular-migration",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 421,
+   "key": "wshobson/agents/anti-reversing-techniques",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 422,
+   "key": "wshobson/agents/attack-tree-construction",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 423,
+   "key": "wshobson/agents/auth-implementation-patterns",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 424,
+   "key": "wshobson/agents/data-quality-frameworks",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 425,
+   "key": "wshobson/agents/database-migration",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 426,
+   "key": "wshobson/agents/gitlab-ci-patterns",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 427,
+   "key": "wshobson/agents/llm-evaluation",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 428,
+   "key": "wshobson/agents/ml-pipeline-workflow",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 429,
+   "key": "wshobson/agents/quantized-export",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 430,
+   "key": "wshobson/agents/threat-mitigation-mapping",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 431,
+   "key": "wshobson/agents/wcag-audit-patterns",
+   "score": 41,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 432,
+   "key": "github/awesome-copilot/daily-prep",
+   "score": 40.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 433,
+   "key": "github/awesome-copilot/pr-dashboard",
+   "score": 40.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 434,
+   "key": "microsoft/skills/azure-security-keyvault-secrets-java",
+   "score": 40.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 435,
+   "key": "wshobson/agents/grounded-vault",
+   "score": 40.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 436,
+   "key": "microsoft/skills/azure-security-keyvault-keys-dotnet",
+   "score": 40.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 437,
+   "key": "microsoft/skills/azure-security-keyvault-keys-java",
+   "score": 40.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 438,
+   "key": "wshobson/agents/backtesting-frameworks",
+   "score": 40,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 439,
+   "key": "wshobson/agents/data-storytelling",
+   "score": 40,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 440,
+   "key": "wshobson/agents/pptx-visual-assets",
+   "score": 40,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 441,
+   "key": "google/skills/google-cloud-scc-query",
+   "score": 39.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 442,
+   "key": "microsoft/skills/azure-keyvault-py",
+   "score": 39.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 443,
+   "key": "microsoft/skills/azure-mgmt-applicationinsights-dotnet",
+   "score": 39.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 444,
+   "key": "microsoft/skills/azure-resource-manager-playwright-dotnet",
+   "score": 39.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 445,
+   "key": "google/skills/gcloud",
+   "score": 39.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 446,
+   "key": "github/awesome-copilot/gh-attach",
+   "score": 39.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 447,
+   "key": "github/awesome-copilot/github-issues",
+   "score": 39.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 448,
+   "key": "github/awesome-copilot/repo-standardizer",
+   "score": 39.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 449,
+   "key": "kkkkhazix/khazix-skills/khazix-writer",
+   "score": 39.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 450,
+   "key": "github/awesome-copilot/arize-dataset",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 451,
+   "key": "github/awesome-copilot/arize-experiment",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 452,
+   "key": "github/awesome-copilot/copilot-pr-autopilot",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 453,
+   "key": "github/awesome-copilot/harness-engineering",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 454,
+   "key": "github/awesome-copilot/latchshot-page-capture",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 455,
+   "key": "github/awesome-copilot/quality-playbook",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 456,
+   "key": "github/awesome-copilot/react18-batching-patterns",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 457,
+   "key": "github/awesome-copilot/react18-lifecycle-patterns",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 458,
+   "key": "github/awesome-copilot/vcpkg",
+   "score": 39,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 459,
+   "key": "google/skills/gke-inference",
+   "score": 38.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 460,
+   "key": "microsoft/skills/azure-ai",
+   "score": 38.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 461,
+   "key": "microsoft/skills/azure-ai-transcription-py",
+   "score": 38.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 462,
+   "key": "github/awesome-copilot/mini-context-graph",
+   "score": 38.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 463,
+   "key": "google/skills/bigquery-bigframes",
+   "score": 38.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 464,
+   "key": "github/awesome-copilot/batch-files",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 465,
+   "key": "github/awesome-copilot/convert-excel-to-md",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 466,
+   "key": "github/awesome-copilot/convert-word-to-md",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 467,
+   "key": "github/awesome-copilot/datanalysis-credit-risk",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 468,
+   "key": "github/awesome-copilot/make-repo-contribution",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 469,
+   "key": "github/awesome-copilot/md-to-docx",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 470,
+   "key": "github/awesome-copilot/nano-banana-pro-openrouter",
+   "score": 38,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 471,
+   "key": "github/awesome-copilot/pinecone-rag",
+   "score": 38.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 472,
+   "key": "github/awesome-copilot/upstash-redis",
+   "score": 38.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 473,
+   "key": "google/skills/agent-platform-prompt-management",
+   "score": 38.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 474,
+   "key": "wshobson/agents/mobile-ios-design",
+   "score": 38.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 475,
+   "key": "google/skills/agent-platform-endpoint-management",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 476,
+   "key": "google/skills/agent-platform-model-registry",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 477,
+   "key": "google/skills/agent-platform-tuning-management",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 478,
+   "key": "google/skills/application-design-center-design-deploy",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 479,
+   "key": "google/skills/gke-basics",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 480,
+   "key": "google/skills/gke-cluster-creation",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 481,
+   "key": "google/skills/gke-multitenancy",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 482,
+   "key": "google/skills/gke-platform-security",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 483,
+   "key": "google/skills/gke-productionize",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 484,
+   "key": "google/skills/gke-service-networking",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 485,
+   "key": "google/skills/google-agents-cli-onboarding",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 486,
+   "key": "google/skills/google-cloud-waf-operational-excellence",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 487,
+   "key": "google/skills/google-cloud-waf-security",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 488,
+   "key": "google/skills/managed-airflow-migrations",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 489,
+   "key": "huggingface/skills/hf-cloud-sagemaker-deployment-planner",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 490,
+   "key": "microsoft/skills/azure-cloud-migrate",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 491,
+   "key": "microsoft/skills/azure-compute",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 492,
+   "key": "microsoft/skills/azure-cost",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 493,
+   "key": "microsoft/skills/azure-diagnostics",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 494,
+   "key": "microsoft/skills/azure-kubernetes",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 495,
+   "key": "microsoft/skills/azure-kubernetes-automatic-readiness",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 496,
+   "key": "microsoft/skills/azure-kusto-irql",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 497,
+   "key": "microsoft/skills/azure-local",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 498,
+   "key": "microsoft/skills/azure-local-multi-rack",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 499,
+   "key": "microsoft/skills/customize",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 500,
+   "key": "microsoft/skills/entra-app-registration",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 501,
+   "key": "microsoft/skills/preset",
+   "score": 37.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 502,
+   "key": "github/awesome-copilot/salesforce-apex-quality",
+   "score": 37.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 503,
+   "key": "microsoft/skills/azure-keyvault-secrets-rust",
+   "score": 37.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 504,
+   "key": "microsoft/skills/azure-containerregistry-py",
+   "score": 37.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 505,
+   "key": "microsoft/skills/azure-keyvault-keys-rust",
+   "score": 37.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 506,
+   "key": "google/skills/bigquery-ai-ml",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 507,
+   "key": "microsoft/skills/azure-ai-textanalytics-py",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 508,
+   "key": "microsoft/skills/azure-ai-translation-document-py",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 509,
+   "key": "microsoft/skills/azure-monitor-ingestion-py",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 510,
+   "key": "microsoft/skills/azure-monitor-query-java",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 511,
+   "key": "microsoft/skills/azure-monitor-query-py",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 512,
+   "key": "microsoft/skills/azure-storage",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 513,
+   "key": "microsoft/skills/azure-storage-file-datalake-py",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 514,
+   "key": "microsoft/skills/kql",
+   "score": 37.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 515,
+   "key": "google/skills/google-cloud-solution-build-deploy-agents",
+   "score": 37.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 516,
+   "key": "google/skills/google-cloud-solution-multi-agent-security",
+   "score": 37.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 517,
+   "key": "obra/superpowers/brainstorming",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 518,
+   "key": "obra/superpowers/diagnosing-superpowers",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 519,
+   "key": "obra/superpowers/dispatching-parallel-agents",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 520,
+   "key": "obra/superpowers/receiving-code-review",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 521,
+   "key": "obra/superpowers/requesting-code-review",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 522,
+   "key": "obra/superpowers/using-superpowers",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 523,
+   "key": "obra/superpowers/verification-before-completion",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 524,
+   "key": "obra/superpowers/writing-plans",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 525,
+   "key": "wshobson/agents/accessibility-compliance",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 526,
+   "key": "wshobson/agents/ai-debt-detector",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 527,
+   "key": "wshobson/agents/api-design-principles",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 528,
+   "key": "wshobson/agents/architecture-decision-records",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 529,
+   "key": "wshobson/agents/architecture-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 530,
+   "key": "wshobson/agents/avoid-ai-writing",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 531,
+   "key": "wshobson/agents/bash-defensive-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 532,
+   "key": "wshobson/agents/bazel-build-optimization",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 533,
+   "key": "wshobson/agents/before-you-build",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 534,
+   "key": "wshobson/agents/billing-automation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 535,
+   "key": "wshobson/agents/binary-analysis-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 536,
+   "key": "wshobson/agents/changelog-automation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 537,
+   "key": "wshobson/agents/checkpoint-promotion",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 538,
+   "key": "wshobson/agents/competitive-landscape",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 539,
+   "key": "wshobson/agents/context-driven-development",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 540,
+   "key": "wshobson/agents/cqrs-implementation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 541,
+   "key": "wshobson/agents/dataset-curation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 542,
+   "key": "wshobson/agents/debugging-strategies",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 543,
+   "key": "wshobson/agents/distributed-tracing",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 544,
+   "key": "wshobson/agents/embedding-strategies",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 545,
+   "key": "wshobson/agents/employment-contract-templates",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 546,
+   "key": "wshobson/agents/eval-harness-first",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 547,
+   "key": "wshobson/agents/event-store-design",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 548,
+   "key": "wshobson/agents/fastapi-templates",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 549,
+   "key": "wshobson/agents/finetuning-method-selection",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 550,
+   "key": "wshobson/agents/go-concurrency-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 551,
+   "key": "wshobson/agents/godot-gdscript-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 552,
+   "key": "wshobson/agents/grafana-dashboards",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 553,
+   "key": "wshobson/agents/grpo-rlvr-training",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 554,
+   "key": "wshobson/agents/hads",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 555,
+   "key": "wshobson/agents/hybrid-cloud-networking",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 556,
+   "key": "wshobson/agents/interaction-design",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 557,
+   "key": "wshobson/agents/istio-traffic-management",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 558,
+   "key": "wshobson/agents/lora-qlora-recipes",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 559,
+   "key": "wshobson/agents/market-sizing-analysis",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 560,
+   "key": "wshobson/agents/memory-safety-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 561,
+   "key": "wshobson/agents/microservices-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 562,
+   "key": "wshobson/agents/modern-javascript-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 563,
+   "key": "wshobson/agents/mtls-configuration",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 564,
+   "key": "wshobson/agents/multi-reviewer-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 565,
+   "key": "wshobson/agents/nft-standards",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 566,
+   "key": "wshobson/agents/nodejs-backend-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 567,
+   "key": "wshobson/agents/nx-workspace-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 568,
+   "key": "wshobson/agents/on-call-handoff-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 569,
+   "key": "wshobson/agents/openapi-spec-generation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 570,
+   "key": "wshobson/agents/parallel-debugging",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 571,
+   "key": "wshobson/agents/postmortem-writing",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 572,
+   "key": "wshobson/agents/pptx-deck-context",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 573,
+   "key": "wshobson/agents/pptx-slide-specification",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 574,
+   "key": "wshobson/agents/preference-optimization",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 575,
+   "key": "wshobson/agents/projection-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 576,
+   "key": "wshobson/agents/protocol-reverse-engineering",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 577,
+   "key": "wshobson/agents/python-background-jobs",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 578,
+   "key": "wshobson/agents/python-design-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 579,
+   "key": "wshobson/agents/python-observability",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 580,
+   "key": "wshobson/agents/python-performance-optimization",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 581,
+   "key": "wshobson/agents/python-project-structure",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 582,
+   "key": "wshobson/agents/python-type-safety",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 583,
+   "key": "wshobson/agents/rag-implementation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 584,
+   "key": "wshobson/agents/react-state-management",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 585,
+   "key": "wshobson/agents/review-agent-setup",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 586,
+   "key": "wshobson/agents/rust-async-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 587,
+   "key": "wshobson/agents/saga-orchestration",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 588,
+   "key": "wshobson/agents/service-mesh-observability",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 589,
+   "key": "wshobson/agents/session-guard",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 590,
+   "key": "wshobson/agents/shellcheck-configuration",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 591,
+   "key": "wshobson/agents/similarity-search-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 592,
+   "key": "wshobson/agents/slo-implementation",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 593,
+   "key": "wshobson/agents/spark-environment-setup",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 594,
+   "key": "wshobson/agents/spark-memory-thermal-ops",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 595,
+   "key": "wshobson/agents/spark-optimization",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 596,
+   "key": "wshobson/agents/spark-training-gotchas",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 597,
+   "key": "wshobson/agents/startup-metrics-framework",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 598,
+   "key": "wshobson/agents/team-composition-analysis",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 599,
+   "key": "wshobson/agents/trace-to-training-data",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 600,
+   "key": "wshobson/agents/track-management",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 601,
+   "key": "wshobson/agents/typescript-advanced-types",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 602,
+   "key": "wshobson/agents/vector-index-tuning",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 603,
+   "key": "wshobson/agents/vision-sft",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 604,
+   "key": "wshobson/agents/visual-edit-precision",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 605,
+   "key": "wshobson/agents/workflow-orchestration-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 606,
+   "key": "wshobson/agents/workflow-patterns",
+   "score": 37,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 607,
+   "key": "microsoft/skills/azure-ai-contentunderstanding-py",
+   "score": 36.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 608,
+   "key": "microsoft/skills/azure-ai-voicelive-py",
+   "score": 36.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 609,
+   "key": "google/skills/dpop-adoption",
+   "score": 36.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 610,
+   "key": "wshobson/agents/javascript-testing-patterns",
+   "score": 36,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 611,
+   "key": "wshobson/agents/python-testing-patterns",
+   "score": 36,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 612,
+   "key": "wshobson/agents/sast-configuration",
+   "score": 36,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 613,
+   "key": "wshobson/agents/signed-audit-trails-recipe",
+   "score": 36.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 614,
+   "key": "wshobson/agents/web3-testing",
+   "score": 36,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 615,
+   "key": "google/skills/cloud-run-basics",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 616,
+   "key": "google/skills/google-cloud-global-frontend-configuration",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 617,
+   "key": "microsoft/skills/azure-eventhub-dotnet",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 618,
+   "key": "microsoft/skills/azure-eventhub-java",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 619,
+   "key": "microsoft/skills/azure-eventhub-rust",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 620,
+   "key": "microsoft/skills/azure-validate",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 621,
+   "key": "microsoft/skills/python-appservice-deploy",
+   "score": 35.8,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 622,
+   "key": "google/skills/alloydb-basics",
+   "score": 35.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 623,
+   "key": "google/skills/cloud-sql-basics",
+   "score": 35.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 624,
+   "key": "microsoft/skills/azure-resource-manager-postgresql-dotnet",
+   "score": 35.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 625,
+   "key": "github/awesome-copilot/gem-devops-guidelines",
+   "score": 35.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 626,
+   "key": "google/skills/agent-platform-inference",
+   "score": 35.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 627,
+   "key": "borjani1577/claude-office-skills/audit-xls",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 628,
+   "key": "cskwork/superoffice-skills/superoffice",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 629,
+   "key": "github/awesome-copilot/acquire-codebase-knowledge",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 630,
+   "key": "github/awesome-copilot/add-educational-comments",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 631,
+   "key": "github/awesome-copilot/adobe-illustrator-scripting",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 632,
+   "key": "github/awesome-copilot/agent-skill-stack",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 633,
+   "key": "github/awesome-copilot/apple-appstore-reviewer",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 634,
+   "key": "github/awesome-copilot/arize-annotation",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 635,
+   "key": "github/awesome-copilot/arize-evaluator",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 636,
+   "key": "github/awesome-copilot/arize-instrumentation",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 637,
+   "key": "github/awesome-copilot/arize-trace",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 638,
+   "key": "github/awesome-copilot/automate-this",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 639,
+   "key": "github/awesome-copilot/bug-receipt",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 640,
+   "key": "github/awesome-copilot/build-evidence-map",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 641,
+   "key": "github/awesome-copilot/competitor-ad-intelligence",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 642,
+   "key": "github/awesome-copilot/conventional-branch",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 643,
+   "key": "github/awesome-copilot/convert-pdf-to-md",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 644,
+   "key": "github/awesome-copilot/convert-plaintext-to-md",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 645,
+   "key": "github/awesome-copilot/copilot-spaces",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 646,
+   "key": "github/awesome-copilot/create-technical-spike",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 647,
+   "key": "github/awesome-copilot/create-tldr-page",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 648,
+   "key": "github/awesome-copilot/daily-focus-board",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 649,
+   "key": "github/awesome-copilot/docs-sync-audit",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 650,
+   "key": "github/awesome-copilot/dotnet-mcp-builder",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 651,
+   "key": "github/awesome-copilot/draw-io-diagram-generator",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 652,
+   "key": "github/awesome-copilot/drawio",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 653,
+   "key": "github/awesome-copilot/excalidraw-diagram-generator",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 654,
+   "key": "github/awesome-copilot/flowstudio-power-automate-mcp",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 655,
+   "key": "github/awesome-copilot/git-commit",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 656,
+   "key": "github/awesome-copilot/github-copilot-starter",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 657,
+   "key": "github/awesome-copilot/github-release",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 658,
+   "key": "github/awesome-copilot/gtm-board-and-investor-communication",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 659,
+   "key": "github/awesome-copilot/image-manipulation-image-magick",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 660,
+   "key": "github/awesome-copilot/integrate-context-matic",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 661,
+   "key": "github/awesome-copilot/landing-page-conversion-audit",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 662,
+   "key": "github/awesome-copilot/mcp-create-declarative-agent",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 663,
+   "key": "github/awesome-copilot/mvvm-toolkit-di",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 664,
+   "key": "github/awesome-copilot/namecheap",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 665,
+   "key": "github/awesome-copilot/onboard-context-matic",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 666,
+   "key": "github/awesome-copilot/openapi-to-application-code",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 667,
+   "key": "github/awesome-copilot/optimize-simplicite-logs",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 668,
+   "key": "github/awesome-copilot/phoenix-cli",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 669,
+   "key": "github/awesome-copilot/plantuml-ascii",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 670,
+   "key": "github/awesome-copilot/poka-yoke",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 671,
+   "key": "github/awesome-copilot/qdrant-clients-sdk",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 672,
+   "key": "github/awesome-copilot/quasi-coder",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 673,
+   "key": "github/awesome-copilot/refactor",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 674,
+   "key": "github/awesome-copilot/resemble-detect",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 675,
+   "key": "github/awesome-copilot/speak-summary",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 676,
+   "key": "github/awesome-copilot/sponsor-finder",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 677,
+   "key": "github/awesome-copilot/spring-boot-testing",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 678,
+   "key": "github/awesome-copilot/structured-autonomy-generate",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 679,
+   "key": "github/awesome-copilot/suggest-awesome-github-copilot-agents",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 680,
+   "key": "github/awesome-copilot/suggest-awesome-github-copilot-instructions",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 681,
+   "key": "github/awesome-copilot/suggest-awesome-github-copilot-skills",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 682,
+   "key": "github/awesome-copilot/tldr-prompt",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 683,
+   "key": "github/awesome-copilot/webmcpify",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 684,
+   "key": "github/awesome-copilot/write-coding-standards-from-file",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 685,
+   "key": "github/awesome-copilot/x-twitter-scraper",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 686,
+   "key": "google/skills/agent-platform-rag-engine-management",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 687,
+   "key": "google/skills/bigtable-basics",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 688,
+   "key": "google/skills/cloud-logging-configuration-basics",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 689,
+   "key": "google/skills/cloud-logging-cross-project-configuration",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 690,
+   "key": "google/skills/cloud-logging-query-generation",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 691,
+   "key": "google/skills/cloud-monitoring-list-time-series-request",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 692,
+   "key": "google/skills/cloud-monitoring-metric-selection",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 693,
+   "key": "google/skills/cloud-run-alert-configuration",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 694,
+   "key": "google/skills/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 695,
+   "key": "google/skills/gke-ai-troubleshooting-tpu-metrics-monitoring",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 696,
+   "key": "google/skills/gke-backup-dr",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 697,
+   "key": "google/skills/gke-batch-hpc",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 698,
+   "key": "google/skills/gke-cluster-autoscaler",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 699,
+   "key": "google/skills/gke-compute-classes",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 700,
+   "key": "google/skills/gke-cost-analysis",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 701,
+   "key": "google/skills/gke-cost-optimization",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 702,
+   "key": "google/skills/gke-golden-path",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 703,
+   "key": "google/skills/gke-networking",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 704,
+   "key": "google/skills/gke-node-notready",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 705,
+   "key": "google/skills/gke-observability",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 706,
+   "key": "google/skills/gke-reliability",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 707,
+   "key": "google/skills/gke-storage",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 708,
+   "key": "google/skills/gke-upgrades",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 709,
+   "key": "google/skills/gke-workload-scaling",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 710,
+   "key": "google/skills/google-cloud-recipe-auth",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 711,
+   "key": "google/skills/google-cloud-recipe-onboarding",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 712,
+   "key": "google/skills/google-cloud-slo-alert-configuration",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 713,
+   "key": "google/skills/google-cloud-waf-performance-optimization",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 714,
+   "key": "google/skills/google-cloud-waf-reliability",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 715,
+   "key": "google/skills/iam-helper-for-troubleshooting",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 716,
+   "key": "google/skills/managed-airflow-dag-authoring",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 717,
+   "key": "google/skills/workload-manager-basics",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 718,
+   "key": "ilaziness/vexo/openspec-explore",
+   "score": 35,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 719,
+   "key": "microsoft/skills/agent-framework-azure-ai-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 720,
+   "key": "microsoft/skills/azure-ai-agents-persistent-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 721,
+   "key": "microsoft/skills/azure-ai-agents-persistent-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 722,
+   "key": "microsoft/skills/azure-ai-contentsafety-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 723,
+   "key": "microsoft/skills/azure-ai-contentsafety-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 724,
+   "key": "microsoft/skills/azure-ai-formrecognizer-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 725,
+   "key": "microsoft/skills/azure-ai-language-conversations-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 726,
+   "key": "microsoft/skills/azure-ai-ml-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 727,
+   "key": "microsoft/skills/azure-ai-projects-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 728,
+   "key": "microsoft/skills/azure-ai-projects-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 729,
+   "key": "microsoft/skills/azure-ai-translation-text-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 730,
+   "key": "microsoft/skills/azure-ai-vision-imageanalysis-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 731,
+   "key": "microsoft/skills/azure-ai-vision-imageanalysis-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 732,
+   "key": "microsoft/skills/azure-appconfiguration-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 733,
+   "key": "microsoft/skills/azure-communication-callautomation-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 734,
+   "key": "microsoft/skills/azure-communication-callingserver-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 735,
+   "key": "microsoft/skills/azure-communication-chat-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 736,
+   "key": "microsoft/skills/azure-communication-common-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 737,
+   "key": "microsoft/skills/azure-communication-sms-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 738,
+   "key": "microsoft/skills/azure-compute-batch-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 739,
+   "key": "microsoft/skills/azure-cosmos-db-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 740,
+   "key": "microsoft/skills/azure-cosmos-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 741,
+   "key": "microsoft/skills/azure-cosmos-rust",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 742,
+   "key": "microsoft/skills/azure-data-tables-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 743,
+   "key": "microsoft/skills/azure-data-tables-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 744,
+   "key": "microsoft/skills/azure-eventgrid-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 745,
+   "key": "microsoft/skills/azure-eventgrid-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 746,
+   "key": "microsoft/skills/azure-eventgrid-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 747,
+   "key": "microsoft/skills/azure-identity-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 748,
+   "key": "microsoft/skills/azure-identity-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 749,
+   "key": "microsoft/skills/azure-identity-rust",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 750,
+   "key": "microsoft/skills/azure-identity-ts",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 751,
+   "key": "microsoft/skills/azure-keyvault-certificates-rust",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 752,
+   "key": "microsoft/skills/azure-kusto-graph",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 753,
+   "key": "microsoft/skills/azure-kusto-irql-graph",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 754,
+   "key": "microsoft/skills/azure-messaging",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 755,
+   "key": "microsoft/skills/azure-messaging-webpubsub-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 756,
+   "key": "microsoft/skills/azure-messaging-webpubsubservice-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 757,
+   "key": "microsoft/skills/azure-mgmt-apicenter-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 758,
+   "key": "microsoft/skills/azure-mgmt-apicenter-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 759,
+   "key": "microsoft/skills/azure-mgmt-apimanagement-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 760,
+   "key": "microsoft/skills/azure-mgmt-apimanagement-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 761,
+   "key": "microsoft/skills/azure-mgmt-arizeaiobservabilityeval-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 762,
+   "key": "microsoft/skills/azure-mgmt-botservice-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 763,
+   "key": "microsoft/skills/azure-mgmt-botservice-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 764,
+   "key": "microsoft/skills/azure-mgmt-fabric-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 765,
+   "key": "microsoft/skills/azure-mgmt-fabric-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 766,
+   "key": "microsoft/skills/azure-mgmt-weightsandbiases-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 767,
+   "key": "microsoft/skills/azure-monitor-ingestion-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 768,
+   "key": "microsoft/skills/azure-monitor-opentelemetry-exporter-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 769,
+   "key": "microsoft/skills/azure-monitor-opentelemetry-exporter-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 770,
+   "key": "microsoft/skills/azure-monitor-opentelemetry-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 771,
+   "key": "microsoft/skills/azure-reliability",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 772,
+   "key": "microsoft/skills/azure-resource-lookup",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 773,
+   "key": "microsoft/skills/azure-resource-manager-cosmosdb-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 774,
+   "key": "microsoft/skills/azure-resource-manager-durabletask-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 775,
+   "key": "microsoft/skills/azure-resource-manager-mysql-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 776,
+   "key": "microsoft/skills/azure-resource-manager-redis-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 777,
+   "key": "microsoft/skills/azure-resource-manager-sql-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 778,
+   "key": "microsoft/skills/azure-resource-visualizer",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 779,
+   "key": "microsoft/skills/azure-servicebus-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 780,
+   "key": "microsoft/skills/azure-storage-blob-java",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 781,
+   "key": "microsoft/skills/azure-storage-blob-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 782,
+   "key": "microsoft/skills/azure-storage-blob-rust",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 783,
+   "key": "microsoft/skills/azure-storage-file-share-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 784,
+   "key": "microsoft/skills/azure-storage-queue-py",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 785,
+   "key": "microsoft/skills/azure-storage-queue-rust",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 786,
+   "key": "microsoft/skills/azure-upgrade",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 787,
+   "key": "microsoft/skills/cloud-solution-architect",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 788,
+   "key": "microsoft/skills/foundry-iq",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 789,
+   "key": "microsoft/skills/m365-agents-dotnet",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 790,
+   "key": "microsoft/skills/slack-to-teams",
+   "score": 35.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 791,
+   "key": "github/awesome-copilot/arduino-azure-iot-edge-integration",
+   "score": 34.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 792,
+   "key": "google/skills/google-cloud-solution-guided-gke-ai-migration",
+   "score": 34.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 793,
+   "key": "google/skills/gke-workload-security",
+   "score": 34.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 794,
+   "key": "google/skills/google-cloud-solution-agentic-ai-bidirectional-streaming",
+   "score": 34.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 795,
+   "key": "namht4devlop/claude-code-workflow-kit/cwk-pr",
+   "score": 34.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 796,
+   "key": "github/awesome-copilot/efcore-d2-db-diagram",
+   "score": 33.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 797,
+   "key": "google/skills/gke-alert-configuration",
+   "score": 33.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 798,
+   "key": "google/skills/google-cloud-solution-hybrid-search-alloydb",
+   "score": 33.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 799,
+   "key": "microsoft/skills/azure-speech-to-text-rest-py",
+   "score": 33.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 800,
+   "key": "obra/superpowers/finishing-a-development-branch",
+   "score": 33,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 801,
+   "key": "obra/superpowers/systematic-debugging",
+   "score": 33,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 802,
+   "key": "obra/superpowers/writing-skills",
+   "score": 33,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 803,
+   "key": "wshobson/agents/pci-compliance",
+   "score": 33,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 804,
+   "key": "github/awesome-copilot/aws-cdk-python-setup",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 805,
+   "key": "github/awesome-copilot/aws-cloudwatch-investigation",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 806,
+   "key": "github/awesome-copilot/azure-deployment-preflight",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 807,
+   "key": "github/awesome-copilot/azure-smart-city-iot-solution-builder",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 808,
+   "key": "github/awesome-copilot/csharp-mstest",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 809,
+   "key": "github/awesome-copilot/csharp-nunit",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 810,
+   "key": "github/awesome-copilot/csharp-tunit",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 811,
+   "key": "github/awesome-copilot/csharp-xunit",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 812,
+   "key": "github/awesome-copilot/java-helidon",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 813,
+   "key": "github/awesome-copilot/java-junit",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 814,
+   "key": "github/awesome-copilot/javax-to-jakarta-migration",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 815,
+   "key": "github/awesome-copilot/project-workflow-analysis-blueprint-generator",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 816,
+   "key": "github/awesome-copilot/python-azure-iot-edge-modules",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 817,
+   "key": "github/awesome-copilot/salesforce-component-standards",
+   "score": 32.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 818,
+   "key": "google/skills/gemini-agents-api",
+   "score": 32.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 819,
+   "key": "google/skills/gemini-api",
+   "score": 32.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 820,
+   "key": "google/skills/gemini-interactions-api",
+   "score": 32.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 821,
+   "key": "microsoft/skills/podcast-generation",
+   "score": 32.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 822,
+   "key": "github/awesome-copilot/dotnet-timezone",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 823,
+   "key": "github/awesome-copilot/java-mcp-server-generator",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 824,
+   "key": "github/awesome-copilot/mvvm-toolkit-messenger",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 825,
+   "key": "google/skills/agent-platform-alert-configuration",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 826,
+   "key": "google/skills/agent-platform-deploy",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 827,
+   "key": "google/skills/agent-platform-eval-flywheel",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 828,
+   "key": "google/skills/agent-platform-tuning",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 829,
+   "key": "google/skills/dbt-sf-to-bq-translator",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 830,
+   "key": "google/skills/firebase-basics",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 831,
+   "key": "google/skills/gke-ai-troubleshooting-jobset-interruption",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 832,
+   "key": "google/skills/google-cloud-filestore-auditing",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 833,
+   "key": "google/skills/google-cloud-networking-observability",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 834,
+   "key": "google/skills/google-cloud-solution-architecture",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 835,
+   "key": "google/skills/google-cloud-solution-n-tier-serverless-web-app",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 836,
+   "key": "google/skills/google-cloud-solution-rag-enterprise-search-gke-sqldb",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 837,
+   "key": "google/skills/google-cloud-storage-fuse",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 838,
+   "key": "huggingface/skills/hf-cloud-aws-context-discovery",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 839,
+   "key": "huggingface/skills/hf-cloud-python-env-setup",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 840,
+   "key": "huggingface/skills/hf-cloud-sagemaker-iam-preflight",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 841,
+   "key": "huggingface/skills/hf-cloud-sagemaker-production-defaults",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 842,
+   "key": "huggingface/skills/hf-cloud-serving-image-selection",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 843,
+   "key": "microsoft/skills/azure-aigateway",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 844,
+   "key": "microsoft/skills/azure-enterprise-infra-planner",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 845,
+   "key": "microsoft/skills/azure-quotas",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 846,
+   "key": "microsoft/skills/capacity",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 847,
+   "key": "microsoft/skills/copilot-sdk",
+   "score": 32.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 848,
+   "key": "microsoft/skills/azure-keyvault-secrets-ts",
+   "score": 32.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 849,
+   "key": "gentleman-programming/gentle-ai/branch-pr",
+   "score": 32,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 850,
+   "key": "github/awesome-copilot/azure-static-web-apps",
+   "score": 32.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 851,
+   "key": "kkkkhazix/khazix-skills/leader",
+   "score": 32,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 852,
+   "key": "rush-db/rushdb/rushdb-agent-memory",
+   "score": 32,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 853,
+   "key": "wshobson/agents/nextjs-app-router-patterns",
+   "score": 32.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 854,
+   "key": "google/skills/google-cloud-storage-basics",
+   "score": 31.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 855,
+   "key": "google/skills/google-cloud-solution-agentic-ai-data-science-workflow",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 856,
+   "key": "google/skills/google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 857,
+   "key": "microsoft/skills/azure-eventhub-ts",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 858,
+   "key": "microsoft/skills/azure-kusto",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 859,
+   "key": "microsoft/skills/debugview",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 860,
+   "key": "microsoft/skills/mcp-builder",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 861,
+   "key": "microsoft/skills/microsoft-docs",
+   "score": 31.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 862,
+   "key": "github/awesome-copilot/pr-screenshots",
+   "score": 31.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 863,
+   "key": "khasky/awesome-agent-skills/awesome-bug-fix",
+   "score": 31,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 864,
+   "key": "github/awesome-copilot/roslyn-analyzers",
+   "score": 30.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 865,
+   "key": "github/awesome-copilot/kotlin-springboot",
+   "score": 30.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 866,
+   "key": "google/skills/bigquery-basics",
+   "score": 30.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 867,
+   "key": "github/awesome-copilot/aspnet-minimal-api-openapi",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 868,
+   "key": "github/awesome-copilot/aws-resource-query",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 869,
+   "key": "github/awesome-copilot/azure-resource-health-diagnose",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 870,
+   "key": "github/awesome-copilot/azure-resource-visualizer",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 871,
+   "key": "github/awesome-copilot/azure-role-selector",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 872,
+   "key": "github/awesome-copilot/bigquery-pipeline-audit",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 873,
+   "key": "github/awesome-copilot/code-exemplars-blueprint-generator",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 874,
+   "key": "github/awesome-copilot/csharp-async",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 875,
+   "key": "github/awesome-copilot/csharp-docs",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 876,
+   "key": "github/awesome-copilot/dotnet-best-practices",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 877,
+   "key": "github/awesome-copilot/dotnet-design-pattern-review",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 878,
+   "key": "github/awesome-copilot/dotnet-upgrade",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 879,
+   "key": "github/awesome-copilot/fluentui-blazor",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 880,
+   "key": "github/awesome-copilot/folder-structure-blueprint-generator",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 881,
+   "key": "github/awesome-copilot/java-docs",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 882,
+   "key": "github/awesome-copilot/java-refactoring-extract-method",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 883,
+   "key": "github/awesome-copilot/java-refactoring-remove-parameter",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 884,
+   "key": "github/awesome-copilot/nuget-manager",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 885,
+   "key": "github/awesome-copilot/salesforce-flow-design",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 886,
+   "key": "github/awesome-copilot/slang-shader-engineer",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 887,
+   "key": "github/awesome-copilot/system-commandline-cli",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 888,
+   "key": "github/awesome-copilot/technology-stack-blueprint-generator",
+   "score": 30.1,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 889,
+   "key": "microsoft/skills/azure-postgres-ts",
+   "score": 29.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 890,
+   "key": "google/skills/finding-google-skills",
+   "score": 29.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 891,
+   "key": "google/skills/retrieving-developer-knowledge",
+   "score": 29.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 892,
+   "key": "google/skills/agent-platform-migrate-from-ai-studio",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 893,
+   "key": "google/skills/agent-platform-skill-registry",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 894,
+   "key": "google/skills/agent-platform-troubleshooting",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 895,
+   "key": "google/skills/bigquery-observability",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 896,
+   "key": "google/skills/bigquery-slot-cost-optimizer",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 897,
+   "key": "google/skills/cloud-databases-onboarding",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 898,
+   "key": "google/skills/cloud-monitoring-promql-query",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 899,
+   "key": "google/skills/datalineage-bigquery-asset-impact-analysis",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 900,
+   "key": "google/skills/datalineage-summary",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 901,
+   "key": "google/skills/gke-ai-troubleshooting-handle-disruption-gpu-tpu",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 902,
+   "key": "google/skills/gke-custom-golden-image-discovery",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 903,
+   "key": "google/skills/gke-storage-troubleshooting",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 904,
+   "key": "google/skills/gke-workload-identity",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 905,
+   "key": "google/skills/gke-workload-troubleshooting",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 906,
+   "key": "google/skills/google-cloud-filestore-autoscale",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 907,
+   "key": "google/skills/google-cloud-filestore-log-troubleshooting",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 908,
+   "key": "google/skills/google-cloud-filestore-nfs-browser",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 909,
+   "key": "google/skills/google-cloud-solution-agentic-ai-borderless-data-lakehouse",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 910,
+   "key": "google/skills/iam-helper-for-policy-simulator",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 911,
+   "key": "google/skills/iam-helper-for-privileged-access-management",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 912,
+   "key": "google/skills/managed-airflow-dag-troubleshooting",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 913,
+   "key": "microsoft/skills/appinsights-instrumentation",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 914,
+   "key": "microsoft/skills/azure-ai-anomalydetector-java",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 915,
+   "key": "microsoft/skills/azure-ai-contentsafety-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 916,
+   "key": "microsoft/skills/azure-ai-document-intelligence-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 917,
+   "key": "microsoft/skills/azure-ai-document-intelligence-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 918,
+   "key": "microsoft/skills/azure-ai-projects-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 919,
+   "key": "microsoft/skills/azure-ai-projects-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 920,
+   "key": "microsoft/skills/azure-ai-translation-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 921,
+   "key": "microsoft/skills/azure-ai-voicelive-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 922,
+   "key": "microsoft/skills/azure-ai-voicelive-java",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 923,
+   "key": "microsoft/skills/azure-ai-voicelive-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 924,
+   "key": "microsoft/skills/azure-appconfiguration-java",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 925,
+   "key": "microsoft/skills/azure-appconfiguration-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 926,
+   "key": "microsoft/skills/azure-cosmos-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 927,
+   "key": "microsoft/skills/azure-cosmos-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 928,
+   "key": "microsoft/skills/azure-eventhub-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 929,
+   "key": "microsoft/skills/azure-identity-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 930,
+   "key": "microsoft/skills/azure-keyvault-keys-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 931,
+   "key": "microsoft/skills/azure-maps-search-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 932,
+   "key": "microsoft/skills/azure-mgmt-mongodbatlas-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 933,
+   "key": "microsoft/skills/azure-monitor-opentelemetry-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 934,
+   "key": "microsoft/skills/azure-search-documents-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 935,
+   "key": "microsoft/skills/azure-search-documents-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 936,
+   "key": "microsoft/skills/azure-search-documents-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 937,
+   "key": "microsoft/skills/azure-servicebus-py",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 938,
+   "key": "microsoft/skills/azure-servicebus-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 939,
+   "key": "microsoft/skills/azure-storage-blob-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 940,
+   "key": "microsoft/skills/azure-storage-file-share-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 941,
+   "key": "microsoft/skills/azure-storage-queue-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 942,
+   "key": "microsoft/skills/azure-web-pubsub-ts",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 943,
+   "key": "microsoft/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 944,
+   "key": "microsoft/skills/wiki-ado-convert",
+   "score": 29.4,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 945,
+   "key": "wshobson/agents/async-python-patterns",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 946,
+   "key": "wshobson/agents/code-review-excellence",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 947,
+   "key": "wshobson/agents/dependency-upgrade",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 948,
+   "key": "wshobson/agents/error-handling-patterns",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 949,
+   "key": "wshobson/agents/evaluation-methodology",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 950,
+   "key": "wshobson/agents/file-conversion",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 951,
+   "key": "wshobson/agents/git-advanced-workflows",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 952,
+   "key": "wshobson/agents/hermes-tweet",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 953,
+   "key": "wshobson/agents/hybrid-search-implementation",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 954,
+   "key": "wshobson/agents/incident-runbook-templates",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 955,
+   "key": "wshobson/agents/langchain-architecture",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 956,
+   "key": "wshobson/agents/memory-forensics",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 957,
+   "key": "wshobson/agents/monorepo-management",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 958,
+   "key": "wshobson/agents/paypal-integration",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 959,
+   "key": "wshobson/agents/pptx-quality-gates",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 960,
+   "key": "wshobson/agents/prometheus-configuration",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 961,
+   "key": "wshobson/agents/python-anti-patterns",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 962,
+   "key": "wshobson/agents/python-code-style",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 963,
+   "key": "wshobson/agents/python-configuration",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 964,
+   "key": "wshobson/agents/python-resilience",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 965,
+   "key": "wshobson/agents/python-resource-management",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 966,
+   "key": "wshobson/agents/react-modernization",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 967,
+   "key": "wshobson/agents/recsys-pipeline-architect",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 968,
+   "key": "wshobson/agents/scan",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 969,
+   "key": "wshobson/agents/social-publishing",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 970,
+   "key": "wshobson/agents/sql-optimization-patterns",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 971,
+   "key": "wshobson/agents/stripe-integration",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 972,
+   "key": "wshobson/agents/turborepo-caching",
+   "score": 29,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 973,
+   "key": "wshobson/agents/k8s-security-policies",
+   "score": 28.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 974,
+   "key": "kkkkhazix/khazix-skills/storage-analyzer",
+   "score": 28.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 975,
+   "key": "github/awesome-copilot/arize-ai-provider-integration",
+   "score": 27.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 976,
+   "key": "github/awesome-copilot/azure-architecture-autopilot",
+   "score": 27.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 977,
+   "key": "github/awesome-copilot/azure-developer-cli",
+   "score": 27.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 978,
+   "key": "github/awesome-copilot/foundry-agent-sync",
+   "score": 27.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 979,
+   "key": "github/awesome-copilot/foundry-hosted-agent-copilotkit",
+   "score": 27.3,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 980,
+   "key": "github/awesome-copilot/containerize-aspnet-framework",
+   "score": 27.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 981,
+   "key": "github/awesome-copilot/containerize-aspnetcore",
+   "score": 27.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 982,
+   "key": "github/awesome-copilot/microsoft-skill-creator",
+   "score": 26.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 983,
+   "key": "microsoft/skills/skill-creator",
+   "score": 25.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 984,
+   "key": "wshobson/agents/cost-optimization",
+   "score": 25.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 985,
+   "key": "wshobson/agents/multi-cloud-architecture",
+   "score": 25.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 986,
+   "key": "wshobson/agents/terraform-module-library",
+   "score": 25.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 987,
+   "key": "wshobson/agents/unity-ecs-patterns",
+   "score": 25.9,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 988,
+   "key": "github/awesome-copilot/aws-well-architected-review",
+   "score": 25.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 989,
+   "key": "github/awesome-copilot/azure-well-architected-review",
+   "score": 25.6,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 990,
+   "key": "wshobson/agents/dotnet-backend-patterns",
+   "score": 25.2,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 991,
+   "key": "github/awesome-copilot/create-spring-boot-kotlin-project",
+   "score": 24.7,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 992,
+   "key": "github/awesome-copilot/api-breaking-change-detector",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 993,
+   "key": "github/awesome-copilot/appinsights-instrumentation",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 994,
+   "key": "github/awesome-copilot/aws-resource-health-diagnose",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 995,
+   "key": "github/awesome-copilot/azure-pricing",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 996,
+   "key": "github/awesome-copilot/cosmosdb-datamodeling",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 997,
+   "key": "github/awesome-copilot/create-spring-boot-java-project",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 998,
+   "key": "github/awesome-copilot/import-infrastructure-as-code",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 999,
+   "key": "github/awesome-copilot/java-springboot",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1000,
+   "key": "github/awesome-copilot/microsoft-agent-framework",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1001,
+   "key": "github/awesome-copilot/microsoft-code-reference",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1002,
+   "key": "github/awesome-copilot/microsoft-docs",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1003,
+   "key": "github/awesome-copilot/semantic-kernel",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1004,
+   "key": "github/awesome-copilot/sql-object-impact-analysis",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1005,
+   "key": "github/awesome-copilot/terraform-azurerm-set-diff-analyzer",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1006,
+   "key": "github/awesome-copilot/update-avm-modules-in-bicep",
+   "score": 24.5,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1007,
+   "key": "hackermanishackerman/claude-skills-vault/pep8",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1008,
+   "key": "jtsang4/efficient-coding/see",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1009,
+   "key": "kkkkhazix/khazix-skills/aihot",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1010,
+   "key": "kkkkhazix/khazix-skills/hv-analysis",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1011,
+   "key": "kkkkhazix/khazix-skills/neat-freak",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1012,
+   "key": "pluginslab/wp-agentic-kit/wordpress-feature",
+   "score": 24,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1013,
+   "key": "wshobson/agents/secrets-management",
+   "score": 23.0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1014,
+   "key": "github/awesome-copilot/aspire",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1015,
+   "key": "github/awesome-copilot/azure-container-registry-cli",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1016,
+   "key": "github/awesome-copilot/azure-devops-cli",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1017,
+   "key": "google/skills/developing-genkit-dart",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1018,
+   "key": "google/skills/developing-genkit-go",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1019,
+   "key": "wshobson/agents/gitops-workflow",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1020,
+   "key": "wshobson/agents/linkerd-patterns",
+   "score": 0,
+   "deep_scan_status": "complete"
+  },
+  {
+   "rank": 1021,
+   "key": "wshobson/agents/uv-package-manager",
+   "score": 0,
+   "deep_scan_status": "complete"
+  }
+ ],
+ "gated_out": [
+  {
+   "key": "github/awesome-copilot/creating-oracle-to-postgres-migration-integration-tests",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/power-bi-model-design-review",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "browseros-ai/browseros/test-ui",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/protect-mcp-setup",
+   "gate": "internal_only"
+  },
+  {
+   "key": "mvanhorn/clawdbot-skill-supabase/clawdbot-skill-supabase",
+   "gate": "internal_only"
+  },
+  {
+   "key": "nariatrip191/my-claude-skills/pr-review-expert",
+   "gate": "internal_only"
+  },
+  {
+   "key": "anthropics/skills/web-artifacts-builder",
+   "gate": "internal_only"
+  },
+  {
+   "key": "stablyai/orca/orchestration",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/aws-cost-optimize",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/az-cost-optimize",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/creating-oracle-to-postgres-master-migration-plan",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/creating-oracle-to-postgres-migration-bug-report",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/d365-solution-blueprint",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/declarative-agents",
+   "gate": "competitor_mismatch"
+  },
+  {
+   "key": "github/awesome-copilot/entra-agent-user",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/fabric-lakehouse",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/java-add-graalvm-native-image-support",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/migrating-oracle-to-postgres-data-access-code",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/migrating-oracle-to-postgres-stored-procedures",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/msgraph-sdk",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/postgresql-code-review",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/postgresql-optimization",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/power-bi-dax-optimization",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/power-bi-performance-troubleshooting",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/power-bi-report-design-consultation",
+   "gate": "internal_only"
+  },
+  {
+   "key": "github/awesome-copilot/powerbi-modeling",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/reviewing-oracle-to-postgres-migration",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/shopify-review-triage",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/snowflake-semanticview",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/sql-code-review",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/sql-optimization",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "github/awesome-copilot/ssma-console",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "vercel-labs/agent-skills/deploy-to-vercel",
+   "gate": "internal_only"
+  },
+  {
+   "key": "vercel-labs/agent-skills/vercel-cli-with-tokens",
+   "gate": "internal_only"
+  },
+  {
+   "key": "google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+   "gate": "internal_only"
+  },
+  {
+   "key": "google/skills/gke-manifest-generation",
+   "gate": "internal_only"
+  },
+  {
+   "key": "huggingface/skills/hf-cli",
+   "gate": "internal_only"
+  },
+  {
+   "key": "huggingface/skills/huggingface-lora-space-builder",
+   "gate": "internal_only"
+  },
+  {
+   "key": "huggingface/skills/huggingface-spaces",
+   "gate": "internal_only"
+  },
+  {
+   "key": "huggingface/skills/huggingface-zerogpu",
+   "gate": "internal_only"
+  },
+  {
+   "key": "microsoft/skills/azure-kubernetes-app-deploy",
+   "gate": "internal_only"
+  },
+  {
+   "key": "microsoft/skills/declarative-agent-developer",
+   "gate": "internal_only"
+  },
+  {
+   "key": "microsoft/skills/m365-agent-evaluator",
+   "gate": "internal_only"
+  },
+  {
+   "key": "microsoft/skills/teams-app-developer",
+   "gate": "internal_only"
+  },
+  {
+   "key": "microsoft/skills/ui-widget-developer",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "wshobson/agents/block-no-verify-hook",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/airflow-dag-patterns",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/postgresql-table-design",
+   "gate": "scope_unresolved"
+  },
+  {
+   "key": "wshobson/agents/helm-chart-scaffolding",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/k8s-manifest-generator",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/superself",
+   "gate": "internal_only"
+  },
+  {
+   "key": "wshobson/agents/mobile-android-design",
+   "gate": "internal_only"
+  }
+ ]
+}
