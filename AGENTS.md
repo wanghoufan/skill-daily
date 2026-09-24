@@ -68,7 +68,7 @@ launchd 已配好（`~/Library/LaunchAgents/com.alw.skill-daily.plist`，Label `
 - 最新送审件：`转送包（2026-09-24 日报引擎V1.4 送审）/skill-daily-v1.4.zip`（96,696 B，
   SHA256 前缀 `6446c269c66bd3c9`）。历史轮 V1~V1.3、外部层 v2.3~v2.11 同目录可查。
 - 凡要转送的文件，写完 `open <文件夹>` 打开 Finder 并点名该送哪个。
-- 任何删除/合并/重命名操作前先给用户方案、等确认；不 commit 不 push（本目录非 git）。
+- 任何删除/合并/重命名操作前先给用户方案、等确认；本目录已是 git 仓库并公开推送 `github.com/wanghoufan/skill-daily`（main）——日常改动可 commit+push，但**结构变动（删目录/改名/改冻结层）先问用户**；`Agent 产物（外部情报层）/` 已被 .gitignore 排除，送审材料只在本地。
 
 ## 当前状态（2026-09-24）
 
